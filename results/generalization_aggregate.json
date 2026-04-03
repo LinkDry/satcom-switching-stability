@@ -1,0 +1,254 @@
+[
+  {
+    "method": "rule",
+    "seed": 42,
+    "known_rate": 20.03201262453836,
+    "known_outage": 0.04666666666666667,
+    "known_fairness": 0.05187247139442625,
+    "novel_rate": 239.11876433653921,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.20667928405935274,
+    "known_avg_fairness": 0.06010813460769304,
+    "novel_avg_fairness": 0.1224171924640874,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 2,
+    "train_time_s": 1677.479440689087,
+    "novel_rate_trajectory": [
+      79.92784116917362,
+      110.48910988060571,
+      226.25314413967746
+    ]
+  },
+  {
+    "method": "mlp",
+    "seed": 42,
+    "known_rate": 79.47265537345923,
+    "known_outage": 0.0,
+    "known_fairness": 0.080542416690597,
+    "novel_rate": 342.05267102481395,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.29285821547071333,
+    "known_avg_fairness": 0.01754385965011487,
+    "novel_avg_fairness": 0.2592082964744476,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 6,
+    "train_time_s": 1625.0203404426575,
+    "novel_rate_trajectory": [
+      294.22800210832173,
+      295.736797560683,
+      323.6340843072973
+    ]
+  },
+  {
+    "method": "mlp_clipped",
+    "seed": 42,
+    "known_rate": 18.068435211387452,
+    "known_outage": 0.0,
+    "known_fairness": 0.06630231524799547,
+    "novel_rate": 355.3416991173653,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.30387488993291367,
+    "known_avg_fairness": 0.08728494424005488,
+    "novel_avg_fairness": 0.20736561115360908,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 6,
+    "train_time_s": 1523.4876217842102,
+    "novel_rate_trajectory": [
+      122.56611232475188,
+      247.75218675937148,
+      354.67666771154467
+    ]
+  },
+  {
+    "method": "finetuned",
+    "seed": 42,
+    "known_rate": 52.979317433139464,
+    "known_outage": 0.6416666666666667,
+    "known_fairness": 0.06897585017478444,
+    "novel_rate": 85.92491912726187,
+    "novel_outage": 3.388888888888889,
+    "novel_fairness": 0.10395499682340138,
+    "known_avg_fairness": 0.0631114252855486,
+    "novel_avg_fairness": 0.07611009938226852,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 10,
+    "train_time_s": 2038.8522794246674,
+    "novel_rate_trajectory": [
+      56.60513620428838,
+      39.762823009381606,
+      73.25821016730933
+    ]
+  },
+  {
+    "method": "rule",
+    "seed": 123,
+    "known_rate": 104.00990827517737,
+    "known_outage": 0.0,
+    "known_fairness": 0.09068198070661002,
+    "novel_rate": 323.28000141771827,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.27670418957742393,
+    "known_avg_fairness": 0.06840579387074473,
+    "novel_avg_fairness": 0.2200465934921059,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 2,
+    "train_time_s": 1791.7280175685883,
+    "novel_rate_trajectory": [
+      174.32866763434296,
+      279.16234192506585,
+      308.30455602148254
+    ]
+  },
+  {
+    "method": "mlp",
+    "seed": 123,
+    "known_rate": 2.9978470617004263,
+    "known_outage": 0.0,
+    "known_fairness": 0.052631578947368335,
+    "novel_rate": 333.43557519084334,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.28696843342631384,
+    "known_avg_fairness": 0.05812178718670183,
+    "novel_avg_fairness": 0.20615949299264072,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 4,
+    "train_time_s": 1503.399763584137,
+    "novel_rate_trajectory": [
+      146.70872042714137,
+      251.50299474422567,
+      323.4035832220506
+    ]
+  },
+  {
+    "method": "mlp_clipped",
+    "seed": 123,
+    "known_rate": 0.44446915542181253,
+    "known_outage": 0.015,
+    "known_fairness": 0.09646337448583363,
+    "novel_rate": 370.1092905722844,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.3172192800045856,
+    "known_avg_fairness": 0.05814052494364145,
+    "novel_avg_fairness": 0.15648050490236418,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 4,
+    "train_time_s": 1430.617995262146,
+    "novel_rate_trajectory": [
+      51.26585506780479,
+      141.27284970108957,
+      325.89829892960597
+    ]
+  },
+  {
+    "method": "finetuned",
+    "seed": 123,
+    "known_rate": 25.598082065486864,
+    "known_outage": 0.0,
+    "known_fairness": 0.05311295693794207,
+    "novel_rate": 49.69685768001247,
+    "novel_outage": 1.3133333333333332,
+    "novel_fairness": 0.0638643992091066,
+    "known_avg_fairness": 0.052753746592138905,
+    "novel_avg_fairness": 0.09767992816155002,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 8,
+    "train_time_s": 1602.8238921165466,
+    "novel_rate_trajectory": [
+      70.6594197161365,
+      45.806062340372314,
+      75.07067917664824
+    ]
+  },
+  {
+    "method": "rule",
+    "seed": 456,
+    "known_rate": 99.48078279711929,
+    "known_outage": 0.0,
+    "known_fairness": 0.08778313567672083,
+    "novel_rate": 355.1463162309427,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.30406516057576344,
+    "known_avg_fairness": 0.03839401064999456,
+    "novel_avg_fairness": 0.26352022642340106,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 2,
+    "train_time_s": 1364.0655119419098,
+    "novel_rate_trajectory": [
+      222.48044900302858,
+      347.73937196034535,
+      354.7074793558373
+    ]
+  },
+  {
+    "method": "mlp",
+    "seed": 456,
+    "known_rate": 37.48767539392976,
+    "known_outage": 0.01,
+    "known_fairness": 0.05281783543550573,
+    "novel_rate": 299.9863187603743,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.25635479449287635,
+    "known_avg_fairness": 0.059675064364045925,
+    "novel_avg_fairness": 0.0976280819976345,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 6,
+    "train_time_s": 1292.1227123737335,
+    "novel_rate_trajectory": [
+      51.92431796978086,
+      88.42341051638395,
+      173.08569036891805
+    ]
+  },
+  {
+    "method": "mlp_clipped",
+    "seed": 456,
+    "known_rate": 19.40888161365723,
+    "known_outage": 0.10166666666666667,
+    "known_fairness": 0.06252839180665316,
+    "novel_rate": 10.104105160889675,
+    "novel_outage": 0.028888888888888888,
+    "novel_fairness": 0.0955007107855415,
+    "known_avg_fairness": 0.043859668586614886,
+    "novel_avg_fairness": 0.07089574114987775,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 6,
+    "train_time_s": 1268.5469512939453,
+    "novel_rate_trajectory": [
+      17.34180347435872,
+      79.10249136545916,
+      55.74238441075532
+    ]
+  },
+  {
+    "method": "finetuned",
+    "seed": 456,
+    "known_rate": 0.34595158521374475,
+    "known_outage": 0.02666666666666667,
+    "known_fairness": 0.05959092162097459,
+    "novel_rate": 0.3405914925620917,
+    "novel_outage": 0.0,
+    "novel_fairness": 0.05263157894736831,
+    "known_avg_fairness": 0.05840384017163872,
+    "novel_avg_fairness": 0.035087719299020305,
+    "known_recovery": [],
+    "novel_recovery": [],
+    "mdp_switches": 9,
+    "train_time_s": 1385.64741897583,
+    "novel_rate_trajectory": [
+      1.5980605484346937,
+      2.1967383659443884,
+      0.0
+    ]
+  }
+]

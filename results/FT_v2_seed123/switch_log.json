@@ -1,0 +1,32 @@
+[
+  {
+    "step": 62500,
+    "weights": {
+      "sum_rate": 0.9997,
+      "fairness": 0.0111,
+      "outage": 1.0044,
+      "switching": 0.0061,
+      "queue": 0.0045
+    }
+  },
+  {
+    "step": 187500,
+    "weights": {
+      "sum_rate": 0.9868,
+      "fairness": 0.0112,
+      "outage": 1.9918,
+      "switching": 0.0149,
+      "queue": 0.1017
+    }
+  },
+  {
+    "step": 250000,
+    "weights": {
+      "sum_rate": 0.9947,
+      "fairness": 0.0034,
+      "outage": 1.0034,
+      "switching": 0.0002,
+      "queue": 0.0014
+    }
+  }
+]

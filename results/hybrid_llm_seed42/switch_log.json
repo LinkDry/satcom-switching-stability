@@ -1,0 +1,79 @@
+[
+  {
+    "step": 62500,
+    "weights": {
+      "sum_rate": 67.8795,
+      "fairness": 0.0,
+      "outage": 124.9313,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 125000,
+    "weights": {
+      "sum_rate": 37.5855,
+      "fairness": 0.0,
+      "outage": 70.2886,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 187500,
+    "weights": {
+      "sum_rate": 61.5571,
+      "fairness": 0.0,
+      "outage": 117.6191,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 250000,
+    "weights": {
+      "sum_rate": 44.855,
+      "fairness": 0.0,
+      "outage": 80.2678,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 312500,
+    "weights": {
+      "sum_rate": 57.385,
+      "fairness": 0.0,
+      "outage": 107.5478,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 375000,
+    "weights": {
+      "sum_rate": 49.1715,
+      "fairness": 0.0,
+      "outage": 86.4899,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  },
+  {
+    "step": 437500,
+    "weights": {
+      "sum_rate": 45.4891,
+      "fairness": 0.0,
+      "outage": 80.6456,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "llm_parsed"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.61\n- demand_variance: 42.65\n- spatial_gini: 0.14\n- peak_beam_demand: 25.24\n- active_beam_fraction: 0.4",
+    "output": "{\"sum_rate\": 1.0135, \"fairness\": 0.3128, \"outage\": 1.0308, \"switching\": 0.0026, \"queue\": 0.0267}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.44\n- demand_variance: 86.55\n- spatial_gini: 0.1\n- peak_beam_demand: 26.71\n- active_beam_fraction: 0.46",
+    "output": "{\"sum_rate\": 1.0211, \"fairness\": 0.2672, \"outage\": 1.027, \"switching\": 0.037, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 22.99\n- demand_variance: 280.15\n- spatial_gini: 0.31\n- peak_beam_demand: 69.19\n- active_beam_fraction: 0.61",
+    "output": "{\"sum_rate\": 1.0252, \"fairness\": 0.0265, \"outage\": 1.0284, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.78\n- demand_variance: 911.31\n- spatial_gini: 0.48\n- peak_beam_demand: 130.7\n- active_beam_fraction: 0.69",
+    "output": "{\"sum_rate\": 0.9939, \"fairness\": 0, \"outage\": 0.9794, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 17.33\n- demand_variance: 260.22\n- spatial_gini: 0.2\n- peak_beam_demand: 36.08\n- active_beam_fraction: 0.32",
+    "output": "{\"sum_rate\": 1.022, \"fairness\": 0.3184, \"outage\": 1.0075, \"switching\": 0.0354, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 10.7\n- demand_variance: 321.53\n- spatial_gini: 0.19\n- peak_beam_demand: 36.45\n- active_beam_fraction: 0.18",
+    "output": "{\"sum_rate\": 1.034, \"fairness\": 0.2839, \"outage\": 1.0348, \"switching\": 0.0504, \"queue\": 0.0103}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.98\n- demand_variance: 179.05\n- spatial_gini: 0.14\n- peak_beam_demand: 13.09\n- active_beam_fraction: 0.19",
+    "output": "{\"sum_rate\": 0.9904, \"fairness\": 0.2866, \"outage\": 1.0024, \"switching\": 0.0217, \"queue\": 0.0454}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.03\n- demand_variance: 219.69\n- spatial_gini: 0.13\n- peak_beam_demand: 39.43\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 0.9793, \"fairness\": 0.293, \"outage\": 1.0183, \"switching\": 0.0074, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 54.58\n- demand_variance: 2837.71\n- spatial_gini: 0.18\n- peak_beam_demand: 212.19\n- active_beam_fraction: 0.84",
+    "output": "{\"sum_rate\": 0.9956, \"fairness\": 0.011, \"outage\": 1.9914, \"switching\": 0.0117, \"queue\": 0.0699}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 44.25\n- demand_variance: 675.03\n- spatial_gini: 0.24\n- peak_beam_demand: 64.57\n- active_beam_fraction: 0.52",
+    "output": "{\"sum_rate\": 0.9986, \"fairness\": 0.0054, \"outage\": 1.0014, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 9.28\n- demand_variance: 42.77\n- spatial_gini: 0.08\n- peak_beam_demand: 30.1\n- active_beam_fraction: 0.11",
+    "output": "{\"sum_rate\": 0.9941, \"fairness\": 0.2722, \"outage\": 1.0328, \"switching\": 0.0533, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 50.62\n- demand_variance: 4417.69\n- spatial_gini: 0.24\n- peak_beam_demand: 169.58\n- active_beam_fraction: 0.3",
+    "output": "{\"sum_rate\": 1.0139, \"fairness\": 0.0024, \"outage\": 2.013, \"switching\": 0, \"queue\": 0.107}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.33\n- demand_variance: 586.36\n- spatial_gini: 0.47\n- peak_beam_demand: 66.05\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 0.9656, \"fairness\": 0, \"outage\": 0.9917, \"switching\": 0.0054, \"queue\": 0.0137}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.27\n- demand_variance: 81.43\n- spatial_gini: 0.19\n- peak_beam_demand: 29.93\n- active_beam_fraction: 0.25",
+    "output": "{\"sum_rate\": 1.0149, \"fairness\": 0.2967, \"outage\": 0.9767, \"switching\": 0.047, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 47.81\n- demand_variance: 829.55\n- spatial_gini: 0.28\n- peak_beam_demand: 79.19\n- active_beam_fraction: 0.86",
+    "output": "{\"sum_rate\": 1.02, \"fairness\": 0.0048, \"outage\": 1.0578, \"switching\": 0.0124, \"queue\": 0.0116}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.21\n- demand_variance: 466.44\n- spatial_gini: 0.36\n- peak_beam_demand: 61.85\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0251, \"fairness\": 0, \"outage\": 1.0411, \"switching\": 0, \"queue\": 0.0173}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 18.0\n- demand_variance: 296.44\n- spatial_gini: 0.1\n- peak_beam_demand: 34.83\n- active_beam_fraction: 0.24",
+    "output": "{\"sum_rate\": 0.967, \"fairness\": 0.2943, \"outage\": 1.0265, \"switching\": 0.0192, \"queue\": 0.0404}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 72.89\n- demand_variance: 1187.89\n- spatial_gini: 0.29\n- peak_beam_demand: 135.54\n- active_beam_fraction: 0.63",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.2697, \"switching\": 0.01, \"queue\": 0.027}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 42.23\n- demand_variance: 654.47\n- spatial_gini: 0.34\n- peak_beam_demand: 42.24\n- active_beam_fraction: 0.79",
+    "output": "{\"sum_rate\": 0.9842, \"fairness\": 0, \"outage\": 0.993, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 65.05\n- demand_variance: 964.39\n- spatial_gini: 0.51\n- peak_beam_demand: 69.93\n- active_beam_fraction: 0.89",
+    "output": "{\"sum_rate\": 0.9831, \"fairness\": 0.0057, \"outage\": 0.9672, \"switching\": 0, \"queue\": 0.0064}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 43.23\n- demand_variance: 814.4\n- spatial_gini: 0.32\n- peak_beam_demand: 124.12\n- active_beam_fraction: 0.87",
+    "output": "{\"sum_rate\": 1.0059, \"fairness\": 0, \"outage\": 1.0042, \"switching\": 0, \"queue\": 0.0292}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 34.99\n- demand_variance: 2516.56\n- spatial_gini: 0.12\n- peak_beam_demand: 271.74\n- active_beam_fraction: 0.46",
+    "output": "{\"sum_rate\": 1.0013, \"fairness\": 0, \"outage\": 1.9947, \"switching\": 0.0028, \"queue\": 0.0999}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 47.47\n- demand_variance: 2932.37\n- spatial_gini: 0.23\n- peak_beam_demand: 213.51\n- active_beam_fraction: 0.52",
+    "output": "{\"sum_rate\": 0.9885, \"fairness\": 0, \"outage\": 2.0082, \"switching\": 0.0083, \"queue\": 0.0725}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 47.31\n- demand_variance: 839.36\n- spatial_gini: 0.53\n- peak_beam_demand: 82.13\n- active_beam_fraction: 0.78",
+    "output": "{\"sum_rate\": 0.9947, \"fairness\": 0, \"outage\": 1.0166, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 54.98\n- demand_variance: 1183.01\n- spatial_gini: 0.3\n- peak_beam_demand: 189.03\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0066, \"fairness\": 0, \"outage\": 2.0293, \"switching\": 0.0203, \"queue\": 0.0827}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.05\n- demand_variance: 298.71\n- spatial_gini: 0.2\n- peak_beam_demand: 23.94\n- active_beam_fraction: 0.3",
+    "output": "{\"sum_rate\": 0.9743, \"fairness\": 0.2959, \"outage\": 0.9875, \"switching\": 0.0019, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 67.0\n- demand_variance: 1961.94\n- spatial_gini: 0.29\n- peak_beam_demand: 190.41\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 1.0032, \"fairness\": 0, \"outage\": 1.9928, \"switching\": 0, \"queue\": 0.0995}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.15\n- demand_variance: 299.62\n- spatial_gini: 0.26\n- peak_beam_demand: 13.07\n- active_beam_fraction: 0.26",
+    "output": "{\"sum_rate\": 0.9852, \"fairness\": 0.3035, \"outage\": 1.0003, \"switching\": 0.0053, \"queue\": 0.0206}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 65.95\n- demand_variance: 3460.44\n- spatial_gini: 0.32\n- peak_beam_demand: 185.25\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 1.0225, \"fairness\": 0.0029, \"outage\": 1.9885, \"switching\": 0.0051, \"queue\": 0.0807}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 21.83\n- demand_variance: 585.05\n- spatial_gini: 0.54\n- peak_beam_demand: 95.4\n- active_beam_fraction: 0.76",
+    "output": "{\"sum_rate\": 1.0372, \"fairness\": 0.0094, \"outage\": 1.0132, \"switching\": 0.0642, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 9.63\n- demand_variance: 210.18\n- spatial_gini: 0.19\n- peak_beam_demand: 9.32\n- active_beam_fraction: 0.25",
+    "output": "{\"sum_rate\": 1.0073, \"fairness\": 0.2421, \"outage\": 0.9805, \"switching\": 0.032, \"queue\": 0.0201}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 20.04\n- demand_variance: 514.87\n- spatial_gini: 0.3\n- peak_beam_demand: 51.9\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 0.9851, \"fairness\": 0, \"outage\": 0.9798, \"switching\": 0.0003, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.02\n- demand_variance: 220.99\n- spatial_gini: 0.16\n- peak_beam_demand: 47.4\n- active_beam_fraction: 0.16",
+    "output": "{\"sum_rate\": 1.0368, \"fairness\": 0.2963, \"outage\": 0.9719, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.35\n- demand_variance: 2536.01\n- spatial_gini: 0.16\n- peak_beam_demand: 172.58\n- active_beam_fraction: 0.59",
+    "output": "{\"sum_rate\": 0.99, \"fairness\": 0, \"outage\": 1.9965, \"switching\": 0.0522, \"queue\": 0.0633}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 30.74\n- demand_variance: 443.08\n- spatial_gini: 0.29\n- peak_beam_demand: 51.0\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 1.0114, \"fairness\": 0, \"outage\": 0.9886, \"switching\": 0.0521, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 58.87\n- demand_variance: 651.6\n- spatial_gini: 0.31\n- peak_beam_demand: 83.03\n- active_beam_fraction: 0.71",
+    "output": "{\"sum_rate\": 0.9626, \"fairness\": 0, \"outage\": 1.0002, \"switching\": 0.0018, \"queue\": 0.0079}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 25.66\n- demand_variance: 728.28\n- spatial_gini: 0.51\n- peak_beam_demand: 76.11\n- active_beam_fraction: 1.08",
+    "output": "{\"sum_rate\": 1.0177, \"fairness\": 0.0261, \"outage\": 1.0159, \"switching\": 0.0471, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 9.31\n- demand_variance: 68.99\n- spatial_gini: 0.19\n- peak_beam_demand: 22.71\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 0.9853, \"fairness\": 0.2892, \"outage\": 1.0069, \"switching\": 0.0219, \"queue\": 0.0154}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 29.28\n- demand_variance: 2417.4\n- spatial_gini: 0.26\n- peak_beam_demand: 268.73\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 1.0219, \"fairness\": 0, \"outage\": 1.9948, \"switching\": 0.0103, \"queue\": 0.0845}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 54.85\n- demand_variance: 736.78\n- spatial_gini: 0.34\n- peak_beam_demand: 103.32\n- active_beam_fraction: 0.7",
+    "output": "{\"sum_rate\": 1.0178, \"fairness\": 0.0158, \"outage\": 0.9716, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 31.81\n- demand_variance: 608.94\n- spatial_gini: 0.42\n- peak_beam_demand: 94.83\n- active_beam_fraction: 0.92",
+    "output": "{\"sum_rate\": 0.9992, \"fairness\": 0.0201, \"outage\": 1.0216, \"switching\": 0.0054, \"queue\": 0.0119}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.94\n- demand_variance: 3412.72\n- spatial_gini: 0.25\n- peak_beam_demand: 143.18\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0386, \"fairness\": 0.0133, \"outage\": 2.021, \"switching\": 0, \"queue\": 0.0862}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 20.21\n- demand_variance: 345.86\n- spatial_gini: 0.16\n- peak_beam_demand: 93.81\n- active_beam_fraction: 0.37",
+    "output": "{\"sum_rate\": 1.0067, \"fairness\": 0.0116, \"outage\": 1.0032, \"switching\": 0.0159, \"queue\": 0.0076}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 53.64\n- demand_variance: 1013.25\n- spatial_gini: 0.45\n- peak_beam_demand: 113.82\n- active_beam_fraction: 0.38",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.5028, \"switching\": 0.01, \"queue\": 0.0503}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.45\n- demand_variance: 592.6\n- spatial_gini: 0.21\n- peak_beam_demand: 56.6\n- active_beam_fraction: 0.47",
+    "output": "{\"sum_rate\": 0.9965, \"fairness\": 0.026, \"outage\": 0.9984, \"switching\": 0.0471, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.38\n- demand_variance: 809.21\n- spatial_gini: 0.58\n- peak_beam_demand: 123.65\n- active_beam_fraction: 0.87",
+    "output": "{\"sum_rate\": 0.9812, \"fairness\": 0.004, \"outage\": 1.0088, \"switching\": 0, \"queue\": 0.0094}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.48\n- demand_variance: 188.48\n- spatial_gini: 0.11\n- peak_beam_demand: 36.0\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 1.0098, \"fairness\": 0.2909, \"outage\": 0.9758, \"switching\": 0.0447, \"queue\": 0.0309}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 50.8\n- demand_variance: 383.12\n- spatial_gini: 0.51\n- peak_beam_demand: 105.08\n- active_beam_fraction: 0.66",
+    "output": "{\"sum_rate\": 0.9504, \"fairness\": 0, \"outage\": 1.0247, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.03\n- demand_variance: 159.03\n- spatial_gini: 0.16\n- peak_beam_demand: 45.02\n- active_beam_fraction: 0.32",
+    "output": "{\"sum_rate\": 0.9673, \"fairness\": 0.3041, \"outage\": 1.0409, \"switching\": 0, \"queue\": 0.0006}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.6\n- demand_variance: 340.87\n- spatial_gini: 0.18\n- peak_beam_demand: 49.65\n- active_beam_fraction: 0.39",
+    "output": "{\"sum_rate\": 0.9639, \"fairness\": 0.3522, \"outage\": 0.9885, \"switching\": 0.0399, \"queue\": 0.0005}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 51.35\n- demand_variance: 602.75\n- spatial_gini: 0.44\n- peak_beam_demand: 90.11\n- active_beam_fraction: 0.87",
+    "output": "{\"sum_rate\": 1.0241, \"fairness\": 0, \"outage\": 0.9957, \"switching\": 0.0233, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.1\n- demand_variance: 211.86\n- spatial_gini: 0.2\n- peak_beam_demand: 22.69\n- active_beam_fraction: 0.3",
+    "output": "{\"sum_rate\": 0.9996, \"fairness\": 0.2945, \"outage\": 0.9922, \"switching\": 0.0115, \"queue\": 0.0007}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 52.73\n- demand_variance: 4110.38\n- spatial_gini: 0.29\n- peak_beam_demand: 152.13\n- active_beam_fraction: 0.6",
+    "output": "{\"sum_rate\": 1.0002, \"fairness\": 0, \"outage\": 1.9828, \"switching\": 0.0007, \"queue\": 0.0964}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 12.03\n- demand_variance: 113.15\n- spatial_gini: 0.14\n- peak_beam_demand: 28.74\n- active_beam_fraction: 0.23",
+    "output": "{\"sum_rate\": 1.0013, \"fairness\": 0.3126, \"outage\": 0.9953, \"switching\": 0.0009, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 54.32\n- demand_variance: 749.53\n- spatial_gini: 0.45\n- peak_beam_demand: 91.57\n- active_beam_fraction: 0.6",
+    "output": "{\"sum_rate\": 1.0106, \"fairness\": 0.0583, \"outage\": 0.9645, \"switching\": 0.0165, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 29.28\n- demand_variance: 429.06\n- spatial_gini: 0.32\n- peak_beam_demand: 73.9\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0133, \"fairness\": 0.0206, \"outage\": 1.0135, \"switching\": 0, \"queue\": 0.002}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.83\n- demand_variance: 290.59\n- spatial_gini: 0.18\n- peak_beam_demand: 36.54\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 1.0174, \"fairness\": 0.2636, \"outage\": 0.97, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 73.55\n- demand_variance: 600.4\n- spatial_gini: 0.41\n- peak_beam_demand: 99.61\n- active_beam_fraction: 1.08",
+    "output": "{\"sum_rate\": 1.0296, \"fairness\": 0.0224, \"outage\": 0.9922, \"switching\": 0, \"queue\": 0.0158}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 52.21\n- demand_variance: 751.37\n- spatial_gini: 0.39\n- peak_beam_demand: 65.22\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 1.014, \"fairness\": 0, \"outage\": 0.9942, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 49.27\n- demand_variance: 706.88\n- spatial_gini: 0.38\n- peak_beam_demand: 120.94\n- active_beam_fraction: 0.69",
+    "output": "{\"sum_rate\": 1.0254, \"fairness\": 0, \"outage\": 1.0049, \"switching\": 0.0089, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 84.15\n- demand_variance: 812.32\n- spatial_gini: 0.37\n- peak_beam_demand: 66.3\n- active_beam_fraction: 0.78",
+    "output": "{\"sum_rate\": 0.9647, \"fairness\": 0.011, \"outage\": 1.0164, \"switching\": 0.0187, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 44.19\n- demand_variance: 3595.52\n- spatial_gini: 0.16\n- peak_beam_demand: 189.75\n- active_beam_fraction: 0.21",
+    "output": "{\"sum_rate\": 0.9705, \"fairness\": 0, \"outage\": 2.0227, \"switching\": 0, \"queue\": 0.0837}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 43.39\n- demand_variance: 806.42\n- spatial_gini: 0.48\n- peak_beam_demand: 77.61\n- active_beam_fraction: 0.77",
+    "output": "{\"sum_rate\": 0.9893, \"fairness\": 0, \"outage\": 1.0273, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 38.09\n- demand_variance: 2808.37\n- spatial_gini: 0.32\n- peak_beam_demand: 203.23\n- active_beam_fraction: 0.58",
+    "output": "{\"sum_rate\": 0.9842, \"fairness\": 0.0059, \"outage\": 1.9699, \"switching\": 0.0412, \"queue\": 0.0719}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 12.75\n- demand_variance: 576.0\n- spatial_gini: 0.28\n- peak_beam_demand: 98.96\n- active_beam_fraction: 0.48",
+    "output": "{\"sum_rate\": 1.0122, \"fairness\": 0, \"outage\": 0.993, \"switching\": 0, \"queue\": 0.0495}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 67.35\n- demand_variance: 953.07\n- spatial_gini: 0.31\n- peak_beam_demand: 76.09\n- active_beam_fraction: 0.55",
+    "output": "{\"sum_rate\": 1.0146, \"fairness\": 0.0034, \"outage\": 0.9722, \"switching\": 0.0062, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 45.4\n- demand_variance: 2745.64\n- spatial_gini: 0.26\n- peak_beam_demand: 201.89\n- active_beam_fraction: 0.61",
+    "output": "{\"sum_rate\": 0.973, \"fairness\": 0.0049, \"outage\": 1.9963, \"switching\": 0.0022, \"queue\": 0.1259}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 37.32\n- demand_variance: 2053.09\n- spatial_gini: 0.25\n- peak_beam_demand: 110.0\n- active_beam_fraction: 0.7",
+    "output": "{\"sum_rate\": 1.0003, \"fairness\": 0, \"outage\": 1.9508, \"switching\": 0.0306, \"queue\": 0.1112}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 58.38\n- demand_variance: 911.7\n- spatial_gini: 0.39\n- peak_beam_demand: 100.94\n- active_beam_fraction: 0.58",
+    "output": "{\"sum_rate\": 0.9878, \"fairness\": 0.0225, \"outage\": 1.0195, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.33\n- demand_variance: 1338.95\n- spatial_gini: 0.31\n- peak_beam_demand: 199.34\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 0.9987, \"fairness\": 0, \"outage\": 2.015, \"switching\": 0.0137, \"queue\": 0.1052}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 10.2\n- demand_variance: 140.76\n- spatial_gini: 0.14\n- peak_beam_demand: 18.41\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 0.9923, \"fairness\": 0.2866, \"outage\": 1.01, \"switching\": 0, \"queue\": 0.0154}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 44.14\n- demand_variance: 1199.57\n- spatial_gini: 0.25\n- peak_beam_demand: 247.07\n- active_beam_fraction: 0.57",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.7545, \"switching\": 0.01, \"queue\": 0.0755}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.32\n- demand_variance: 172.51\n- spatial_gini: 0.07\n- peak_beam_demand: 36.21\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 0.9983, \"fairness\": 0.3081, \"outage\": 0.9905, \"switching\": 0, \"queue\": 0.0205}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 44.32\n- demand_variance: 2391.78\n- spatial_gini: 0.24\n- peak_beam_demand: 141.44\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 1.0368, \"fairness\": 0.0375, \"outage\": 1.9999, \"switching\": 0.0156, \"queue\": 0.0804}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 65.03\n- demand_variance: 1037.55\n- spatial_gini: 0.35\n- peak_beam_demand: 52.8\n- active_beam_fraction: 0.71",
+    "output": "{\"sum_rate\": 1.0186, \"fairness\": 0.036, \"outage\": 1.0103, \"switching\": 0.0026, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 12.32\n- demand_variance: 399.52\n- spatial_gini: 0.13\n- peak_beam_demand: 49.73\n- active_beam_fraction: 0.28",
+    "output": "{\"sum_rate\": 1.0267, \"fairness\": 0.3339, \"outage\": 0.9795, \"switching\": 0.0003, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 29.59\n- demand_variance: 579.38\n- spatial_gini: 0.28\n- peak_beam_demand: 83.02\n- active_beam_fraction: 0.52",
+    "output": "{\"sum_rate\": 0.9854, \"fairness\": 0, \"outage\": 1.0061, \"switching\": 0.0186, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 52.55\n- demand_variance: 712.19\n- spatial_gini: 0.41\n- peak_beam_demand: 47.42\n- active_beam_fraction: 0.74",
+    "output": "{\"sum_rate\": 1.0169, \"fairness\": 0, \"outage\": 0.9868, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.79\n- demand_variance: 187.11\n- spatial_gini: 0.1\n- peak_beam_demand: 28.6\n- active_beam_fraction: 0.2",
+    "output": "{\"sum_rate\": 1.0097, \"fairness\": 0.3161, \"outage\": 1.0295, \"switching\": 0.0174, \"queue\": 0.0185}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 18.1\n- demand_variance: 154.77\n- spatial_gini: 0.18\n- peak_beam_demand: 36.73\n- active_beam_fraction: 0.21",
+    "output": "{\"sum_rate\": 0.9748, \"fairness\": 0.2987, \"outage\": 1.0162, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 32.97\n- demand_variance: 599.52\n- spatial_gini: 0.27\n- peak_beam_demand: 51.34\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 0.9891, \"fairness\": 0, \"outage\": 1.0391, \"switching\": 0.0134, \"queue\": 0.0107}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 11.12\n- demand_variance: 2441.57\n- spatial_gini: 0.08\n- peak_beam_demand: 166.09\n- active_beam_fraction: 0.54",
+    "output": "{\"sum_rate\": 1.0019, \"fairness\": 0, \"outage\": 1.9983, \"switching\": 0, \"queue\": 0.1002}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.63\n- demand_variance: 860.87\n- spatial_gini: 0.46\n- peak_beam_demand: 98.28\n- active_beam_fraction: 0.94",
+    "output": "{\"sum_rate\": 0.9587, \"fairness\": 0, \"outage\": 1.0118, \"switching\": 0, \"queue\": 0.0295}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 40.82\n- demand_variance: 3119.65\n- spatial_gini: 0.16\n- peak_beam_demand: 134.92\n- active_beam_fraction: 0.31",
+    "output": "{\"sum_rate\": 0.9978, \"fairness\": 0, \"outage\": 1.9713, \"switching\": 0.013, \"queue\": 0.0981}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 74.21\n- demand_variance: 820.18\n- spatial_gini: 0.39\n- peak_beam_demand: 77.57\n- active_beam_fraction: 0.6",
+    "output": "{\"sum_rate\": 0.9858, \"fairness\": 0, \"outage\": 0.97, \"switching\": 0.0061, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 32.3\n- demand_variance: 960.91\n- spatial_gini: 0.38\n- peak_beam_demand: 98.08\n- active_beam_fraction: 0.78",
+    "output": "{\"sum_rate\": 1.0367, \"fairness\": 0, \"outage\": 1.0075, \"switching\": 0, \"queue\": 0.0238}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 39.42\n- demand_variance: 697.82\n- spatial_gini: 0.38\n- peak_beam_demand: 38.47\n- active_beam_fraction: 0.48",
+    "output": "{\"sum_rate\": 0.9717, \"fairness\": 0, \"outage\": 1.0323, \"switching\": 0.0319, \"queue\": 0.0132}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 12.76\n- demand_variance: 255.67\n- spatial_gini: 0.22\n- peak_beam_demand: 29.74\n- active_beam_fraction: 0.53",
+    "output": "{\"sum_rate\": 1.0046, \"fairness\": 0.2738, \"outage\": 0.9888, \"switching\": 0.0025, \"queue\": 0.0118}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.06\n- demand_variance: 801.7\n- spatial_gini: 0.53\n- peak_beam_demand: 93.61\n- active_beam_fraction: 0.6",
+    "output": "{\"sum_rate\": 1.0245, \"fairness\": 0.0316, \"outage\": 1.0099, \"switching\": 0.0295, \"queue\": 0.0248}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.1\n- demand_variance: 566.65\n- spatial_gini: 0.39\n- peak_beam_demand: 74.12\n- active_beam_fraction: 0.49",
+    "output": "{\"sum_rate\": 1.0032, \"fairness\": 0, \"outage\": 1.0068, \"switching\": 0.027, \"queue\": 0.0198}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 24.21\n- demand_variance: 719.28\n- spatial_gini: 0.36\n- peak_beam_demand: 115.87\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 1.0321, \"fairness\": 0, \"outage\": 0.9768, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 10.26\n- demand_variance: 267.59\n- spatial_gini: 0.13\n- peak_beam_demand: 28.09\n- active_beam_fraction: 0.26",
+    "output": "{\"sum_rate\": 0.972, \"fairness\": 0.287, \"outage\": 0.9924, \"switching\": 0.0115, \"queue\": 0.0112}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 44.3\n- demand_variance: 582.97\n- spatial_gini: 0.27\n- peak_beam_demand: 64.61\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 0.9866, \"fairness\": 0, \"outage\": 1.0333, \"switching\": 0.0242, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 5.83\n- demand_variance: 4319.35\n- spatial_gini: 0.23\n- peak_beam_demand: 193.91\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 1.0199, \"fairness\": 0.0008, \"outage\": 1.9988, \"switching\": 0, \"queue\": 0.1015}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 53.76\n- demand_variance: 2010.14\n- spatial_gini: 0.31\n- peak_beam_demand: 240.69\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 1.0199, \"fairness\": 0.0106, \"outage\": 2.0023, \"switching\": 0.025, \"queue\": 0.1368}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 58.3\n- demand_variance: 849.78\n- spatial_gini: 0.55\n- peak_beam_demand: 99.69\n- active_beam_fraction: 0.88",
+    "output": "{\"sum_rate\": 1.0184, \"fairness\": 0.0304, \"outage\": 1.0072, \"switching\": 0.0281, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.23\n- demand_variance: 259.12\n- spatial_gini: 0.18\n- peak_beam_demand: 30.74\n- active_beam_fraction: 0.25",
+    "output": "{\"sum_rate\": 0.9837, \"fairness\": 0.3258, \"outage\": 1.0153, \"switching\": 0, \"queue\": 0.0008}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.12\n- demand_variance: 0.0\n- spatial_gini: 0.17\n- peak_beam_demand: 40.6\n- active_beam_fraction: 0.24",
+    "output": "{\"sum_rate\": 0.9914, \"fairness\": 0.2785, \"outage\": 0.9896, \"switching\": 0.0001, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 48.65\n- demand_variance: 1109.05\n- spatial_gini: 0.43\n- peak_beam_demand: 95.19\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 0.9911, \"fairness\": 0.0042, \"outage\": 1.0317, \"switching\": 0.0144, \"queue\": 0.0277}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 69.59\n- demand_variance: 843.88\n- spatial_gini: 0.41\n- peak_beam_demand: 112.13\n- active_beam_fraction: 0.76",
+    "output": "{\"sum_rate\": 1.0307, \"fairness\": 0.0037, \"outage\": 0.9755, \"switching\": 0, \"queue\": 0.033}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 41.19\n- demand_variance: 802.2\n- spatial_gini: 0.54\n- peak_beam_demand: 60.05\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 0.9592, \"fairness\": 0.0007, \"outage\": 0.9776, \"switching\": 0.0023, \"queue\": 0.0132}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 40.14\n- demand_variance: 225.44\n- spatial_gini: 0.4\n- peak_beam_demand: 69.5\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 0.9593, \"fairness\": 0, \"outage\": 1.0271, \"switching\": 0.0015, \"queue\": 0.0143}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 21.44\n- demand_variance: 585.99\n- spatial_gini: 0.22\n- peak_beam_demand: 0.0\n- active_beam_fraction: 0.39",
+    "output": "{\"sum_rate\": 0.9999, \"fairness\": 0, \"outage\": 0.9801, \"switching\": 0.0108, \"queue\": 0.0069}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 34.86\n- demand_variance: 3032.85\n- spatial_gini: 0.33\n- peak_beam_demand: 177.57\n- active_beam_fraction: 0.61",
+    "output": "{\"sum_rate\": 0.9868, \"fairness\": 0.0049, \"outage\": 2.02, \"switching\": 0.0166, \"queue\": 0.0894}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 56.97\n- demand_variance: 2973.22\n- spatial_gini: 0.34\n- peak_beam_demand: 156.65\n- active_beam_fraction: 0.51",
+    "output": "{\"sum_rate\": 1.008, \"fairness\": 0, \"outage\": 1.9981, \"switching\": 0, \"queue\": 0.108}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 69.62\n- demand_variance: 701.31\n- spatial_gini: 0.52\n- peak_beam_demand: 82.06\n- active_beam_fraction: 0.72",
+    "output": "{\"sum_rate\": 1.0147, \"fairness\": 0, \"outage\": 1.0199, \"switching\": 0, \"queue\": 0.0059}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 18.95\n- demand_variance: 1224.91\n- spatial_gini: 0.14\n- peak_beam_demand: 175.62\n- active_beam_fraction: 0.64",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.7645, \"switching\": 0.01, \"queue\": 0.0764}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.65\n- demand_variance: 864.46\n- spatial_gini: 0.38\n- peak_beam_demand: 72.44\n- active_beam_fraction: 0.65",
+    "output": "{\"sum_rate\": 0.9977, \"fairness\": 0.0084, \"outage\": 1.033, \"switching\": 0.0051, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 43.09\n- demand_variance: 402.37\n- spatial_gini: 0.23\n- peak_beam_demand: 74.26\n- active_beam_fraction: 0.59",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.1749, \"outage\": 1.0, \"switching\": 0.01, \"queue\": 0.0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.16\n- demand_variance: 70.91\n- spatial_gini: 0.17\n- peak_beam_demand: 35.46\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 0.9757, \"fairness\": 0.3352, \"outage\": 0.9786, \"switching\": 0.0232, \"queue\": 0.004}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 32.46\n- demand_variance: 539.61\n- spatial_gini: 0.62\n- peak_beam_demand: 80.75\n- active_beam_fraction: 0.7",
+    "output": "{\"sum_rate\": 0.9919, \"fairness\": 0, \"outage\": 0.9953, \"switching\": 0.0592, \"queue\": 0.0278}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 16.71\n- demand_variance: 104.04\n- spatial_gini: 0.14\n- peak_beam_demand: 29.6\n- active_beam_fraction: 0.37",
+    "output": "{\"sum_rate\": 0.9875, \"fairness\": 0.2863, \"outage\": 1.002, \"switching\": 0.0301, \"queue\": 0.0457}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 28.91\n- demand_variance: 654.27\n- spatial_gini: 0.28\n- peak_beam_demand: 87.13\n- active_beam_fraction: 0.45",
+    "output": "{\"sum_rate\": 0.9885, \"fairness\": 0.0363, \"outage\": 1.0006, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 24.0\n- demand_variance: 1384.18\n- spatial_gini: 0.31\n- peak_beam_demand: 123.18\n- active_beam_fraction: 0.21",
+    "output": "{\"sum_rate\": 1.0182, \"fairness\": 0.0032, \"outage\": 2.0095, \"switching\": 0.0012, \"queue\": 0.0723}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 12.89\n- demand_variance: 395.82\n- spatial_gini: 0.16\n- peak_beam_demand: 30.22\n- active_beam_fraction: 0.17",
+    "output": "{\"sum_rate\": 1.0222, \"fairness\": 0.29, \"outage\": 0.9871, \"switching\": 0.0356, \"queue\": 0.0232}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 5.52\n- demand_variance: 173.98\n- spatial_gini: 0.1\n- peak_beam_demand: 34.68\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 0.9907, \"fairness\": 0.3397, \"outage\": 0.9853, \"switching\": 0.0076, \"queue\": 0.0128}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 43.35\n- demand_variance: 600.32\n- spatial_gini: 0.26\n- peak_beam_demand: 67.69\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 0.9987, \"fairness\": 0, \"outage\": 1.0338, \"switching\": 0.0219, \"queue\": 0.0473}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 39.06\n- demand_variance: 736.21\n- spatial_gini: 0.33\n- peak_beam_demand: 90.32\n- active_beam_fraction: 0.53",
+    "output": "{\"sum_rate\": 0.9671, \"fairness\": 0, \"outage\": 0.9639, \"switching\": 0.0231, \"queue\": 0.0179}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 26.27\n- demand_variance: 2123.97\n- spatial_gini: 0.21\n- peak_beam_demand: 182.51\n- active_beam_fraction: 0.31",
+    "output": "{\"sum_rate\": 0.9551, \"fairness\": 0.0092, \"outage\": 1.9577, \"switching\": 0.0271, \"queue\": 0.1312}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.68\n- demand_variance: 0.0\n- spatial_gini: 0.13\n- peak_beam_demand: 44.26\n- active_beam_fraction: 0.3",
+    "output": "{\"sum_rate\": 1.0179, \"fairness\": 0.2672, \"outage\": 0.968, \"switching\": 0.0387, \"queue\": 0.002}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.46\n- demand_variance: 430.64\n- spatial_gini: 0.28\n- peak_beam_demand: 62.96\n- active_beam_fraction: 0.52",
+    "output": "{\"sum_rate\": 1.0062, \"fairness\": 0.0346, \"outage\": 0.9999, \"switching\": 0, \"queue\": 0.0231}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.86\n- demand_variance: 909.06\n- spatial_gini: 0.47\n- peak_beam_demand: 109.3\n- active_beam_fraction: 0.71",
+    "output": "{\"sum_rate\": 1.0078, \"fairness\": 0.0061, \"outage\": 0.9982, \"switching\": 0, \"queue\": 0.0443}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 32.58\n- demand_variance: 1976.76\n- spatial_gini: 0.23\n- peak_beam_demand: 225.08\n- active_beam_fraction: 0.35",
+    "output": "{\"sum_rate\": 0.9832, \"fairness\": 0.025, \"outage\": 2.0015, \"switching\": 0.0234, \"queue\": 0.108}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 32.54\n- demand_variance: 251.08\n- spatial_gini: 0.27\n- peak_beam_demand: 67.84\n- active_beam_fraction: 0.45",
+    "output": "{\"sum_rate\": 1.01, \"fairness\": 0.0144, \"outage\": 0.9845, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 60.89\n- demand_variance: 956.99\n- spatial_gini: 0.49\n- peak_beam_demand: 88.55\n- active_beam_fraction: 0.61",
+    "output": "{\"sum_rate\": 0.962, \"fairness\": 0.0068, \"outage\": 1.0037, \"switching\": 0.0212, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 4.21\n- demand_variance: 251.99\n- spatial_gini: 0.18\n- peak_beam_demand: 40.54\n- active_beam_fraction: 0.26",
+    "output": "{\"sum_rate\": 0.9992, \"fairness\": 0.2994, \"outage\": 1.0338, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 24.12\n- demand_variance: 177.9\n- spatial_gini: 0.52\n- peak_beam_demand: 88.08\n- active_beam_fraction: 0.87",
+    "output": "{\"sum_rate\": 0.9824, \"fairness\": 0.007, \"outage\": 1.0169, \"switching\": 0.0011, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 21.4\n- demand_variance: 351.23\n- spatial_gini: 0.35\n- peak_beam_demand: 86.12\n- active_beam_fraction: 0.38",
+    "output": "{\"sum_rate\": 1.0183, \"fairness\": 0.0411, \"outage\": 1.0269, \"switching\": 0.0338, \"queue\": 0.0063}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 51.14\n- demand_variance: 2348.7\n- spatial_gini: 0.33\n- peak_beam_demand: 58.32\n- active_beam_fraction: 0.4",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.5577, \"switching\": 0.01, \"queue\": 0.0558}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 8.25\n- demand_variance: 319.87\n- spatial_gini: 0.14\n- peak_beam_demand: 37.04\n- active_beam_fraction: 0.05",
+    "output": "{\"sum_rate\": 1.0114, \"fairness\": 0.2968, \"outage\": 0.9904, \"switching\": 0.0136, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 37.72\n- demand_variance: 877.95\n- spatial_gini: 0.3\n- peak_beam_demand: 94.26\n- active_beam_fraction: 0.47",
+    "output": "{\"sum_rate\": 0.9844, \"fairness\": 0, \"outage\": 0.9899, \"switching\": 0, \"queue\": 0.0402}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 29.8\n- demand_variance: 1444.9\n- spatial_gini: 0.19\n- peak_beam_demand: 180.54\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 1.0229, \"fairness\": 0.0045, \"outage\": 1.9907, \"switching\": 0.0073, \"queue\": 0.1244}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 27.68\n- demand_variance: 1017.12\n- spatial_gini: 0.32\n- peak_beam_demand: 105.94\n- active_beam_fraction: 0.59",
+    "output": "{\"sum_rate\": 1.032, \"fairness\": 0.015, \"outage\": 0.9798, \"switching\": 0, \"queue\": 0.0121}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 51.7\n- demand_variance: 2521.25\n- spatial_gini: 0.18\n- peak_beam_demand: 257.01\n- active_beam_fraction: 0.63",
+    "output": "{\"sum_rate\": 0.9909, \"fairness\": 0.0285, \"outage\": 1.9893, \"switching\": 0.0382, \"queue\": 0.1296}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 57.44\n- demand_variance: 2831.11\n- spatial_gini: 0.25\n- peak_beam_demand: 225.92\n- active_beam_fraction: 0.84",
+    "output": "{\"sum_rate\": 1.0183, \"fairness\": 0.0041, \"outage\": 2.0087, \"switching\": 0.0151, \"queue\": 0.1004}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 26.54\n- demand_variance: 843.88\n- spatial_gini: 0.47\n- peak_beam_demand: 124.02\n- active_beam_fraction: 0.6",
+    "output": "{\"sum_rate\": 1.0059, \"fairness\": 0.0063, \"outage\": 0.9949, \"switching\": 0.0249, \"queue\": 0.0155}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.18\n- demand_variance: 654.63\n- spatial_gini: 0.21\n- peak_beam_demand: 77.77\n- active_beam_fraction: 0.58",
+    "output": "{\"sum_rate\": 1.0138, \"fairness\": 0, \"outage\": 1.0183, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.62\n- demand_variance: 819.3\n- spatial_gini: 0.37\n- peak_beam_demand: 72.74\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 0.9707, \"fairness\": 0.0173, \"outage\": 1.0237, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 38.16\n- demand_variance: 3190.92\n- spatial_gini: 0.32\n- peak_beam_demand: 187.78\n- active_beam_fraction: 0.46",
+    "output": "{\"sum_rate\": 0.9917, \"fairness\": 0.0084, \"outage\": 2.0279, \"switching\": 0.0079, \"queue\": 0.1295}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 0.19\n- demand_variance: 3165.07\n- spatial_gini: 0.22\n- peak_beam_demand: 169.54\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 1.0279, \"fairness\": 0.0107, \"outage\": 2.0386, \"switching\": 0.0201, \"queue\": 0.106}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.12\n- demand_variance: 196.2\n- spatial_gini: 0.29\n- peak_beam_demand: 67.85\n- active_beam_fraction: 0.34",
+    "output": "{\"sum_rate\": 0.9826, \"fairness\": 0.0305, \"outage\": 1.0175, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 21.5\n- demand_variance: 3376.76\n- spatial_gini: 0.08\n- peak_beam_demand: 233.72\n- active_beam_fraction: 0.57",
+    "output": "{\"sum_rate\": 0.985, \"fairness\": 0, \"outage\": 2.0379, \"switching\": 0.0382, \"queue\": 0.0976}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.59\n- demand_variance: 549.67\n- spatial_gini: 0.32\n- peak_beam_demand: 74.85\n- active_beam_fraction: 0.59",
+    "output": "{\"sum_rate\": 0.9905, \"fairness\": 0.0249, \"outage\": 1.0089, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 27.66\n- demand_variance: 2326.72\n- spatial_gini: 0.28\n- peak_beam_demand: 120.59\n- active_beam_fraction: 0.31",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.024, \"outage\": 1.9995, \"switching\": 0, \"queue\": 0.057}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.27\n- demand_variance: 2200.39\n- spatial_gini: 0.28\n- peak_beam_demand: 181.11\n- active_beam_fraction: 0.69",
+    "output": "{\"sum_rate\": 0.9683, \"fairness\": 0.0147, \"outage\": 1.996, \"switching\": 0.0285, \"queue\": 0.0836}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.34\n- demand_variance: 699.12\n- spatial_gini: 0.37\n- peak_beam_demand: 79.09\n- active_beam_fraction: 0.54",
+    "output": "{\"sum_rate\": 1.0142, \"fairness\": 0, \"outage\": 1.0418, \"switching\": 0.0418, \"queue\": 0.0043}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 30.35\n- demand_variance: 2548.19\n- spatial_gini: 0.15\n- peak_beam_demand: 124.49\n- active_beam_fraction: 0.53",
+    "output": "{\"sum_rate\": 0.9848, \"fairness\": 0, \"outage\": 2.0193, \"switching\": 0, \"queue\": 0.123}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 28.06\n- demand_variance: 2338.12\n- spatial_gini: 0.24\n- peak_beam_demand: 177.95\n- active_beam_fraction: 0.68",
+    "output": "{\"sum_rate\": 0.9531, \"fairness\": 0.0006, \"outage\": 1.9984, \"switching\": 0, \"queue\": 0.1134}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 39.08\n- demand_variance: 403.77\n- spatial_gini: 0.27\n- peak_beam_demand: 102.89\n- active_beam_fraction: 0.21",
+    "output": "{\"sum_rate\": 0.991, \"fairness\": 0, \"outage\": 0.9961, \"switching\": 0.0013, \"queue\": 0.012}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 65.92\n- demand_variance: 921.41\n- spatial_gini: 0.46\n- peak_beam_demand: 75.08\n- active_beam_fraction: 0.54",
+    "output": "{\"sum_rate\": 0.9898, \"fairness\": 0.0082, \"outage\": 1.0067, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 51.7\n- demand_variance: 1612.98\n- spatial_gini: 0.49\n- peak_beam_demand: 93.48\n- active_beam_fraction: 0.51",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.3052, \"switching\": 0.01, \"queue\": 0.0305}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 31.58\n- demand_variance: 3572.05\n- spatial_gini: 0.1\n- peak_beam_demand: 230.91\n- active_beam_fraction: 0.37",
+    "output": "{\"sum_rate\": 1.0042, \"fairness\": 0, \"outage\": 1.9815, \"switching\": 0.0363, \"queue\": 0.1371}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.52\n- demand_variance: 2607.19\n- spatial_gini: 0.2\n- peak_beam_demand: 158.98\n- active_beam_fraction: 0.33",
+    "output": "{\"sum_rate\": 0.9876, \"fairness\": 0.0002, \"outage\": 2.0047, \"switching\": 0, \"queue\": 0.0982}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 24.32\n- demand_variance: 704.93\n- spatial_gini: 0.22\n- peak_beam_demand: 80.04\n- active_beam_fraction: 0.36",
+    "output": "{\"sum_rate\": 1.0035, \"fairness\": 0.0267, \"outage\": 1.0077, \"switching\": 0.0028, \"queue\": 0.0108}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 42.46\n- demand_variance: 601.47\n- spatial_gini: 0.48\n- peak_beam_demand: 84.92\n- active_beam_fraction: 0.36",
+    "output": "{\"sum_rate\": 1.0014, \"fairness\": 0, \"outage\": 0.995, \"switching\": 0, \"queue\": 0.0077}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 53.17\n- demand_variance: 977.28\n- spatial_gini: 0.5\n- peak_beam_demand: 114.01\n- active_beam_fraction: 0.74",
+    "output": "{\"sum_rate\": 0.9929, \"fairness\": 0.0067, \"outage\": 0.9414, \"switching\": 0.0177, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 56.51\n- demand_variance: 2877.63\n- spatial_gini: 0.17\n- peak_beam_demand: 200.36\n- active_beam_fraction: 0.4",
+    "output": "{\"sum_rate\": 1.0007, \"fairness\": 0, \"outage\": 1.9973, \"switching\": 0.0288, \"queue\": 0.1104}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 84.09\n- demand_variance: 927.99\n- spatial_gini: 0.6\n- peak_beam_demand: 93.66\n- active_beam_fraction: 0.69",
+    "output": "{\"sum_rate\": 1.0076, \"fairness\": 0, \"outage\": 0.9807, \"switching\": 0.0353, \"queue\": 0.0274}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.07\n- demand_variance: 5059.15\n- spatial_gini: 0.18\n- peak_beam_demand: 226.61\n- active_beam_fraction: 0.27",
+    "output": "{\"sum_rate\": 0.9951, \"fairness\": 0, \"outage\": 2.0051, \"switching\": 0.0111, \"queue\": 0.0938}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 38.52\n- demand_variance: 2484.48\n- spatial_gini: 0.31\n- peak_beam_demand: 222.67\n- active_beam_fraction: 0.57",
+    "output": "{\"sum_rate\": 1.0172, \"fairness\": 0, \"outage\": 2.0565, \"switching\": 0, \"queue\": 0.0894}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.38\n- demand_variance: 254.8\n- spatial_gini: 0.16\n- peak_beam_demand: 36.7\n- active_beam_fraction: 0.38",
+    "output": "{\"sum_rate\": 1.0033, \"fairness\": 0.2956, \"outage\": 1.0306, \"switching\": 0.0004, \"queue\": 0.0078}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 34.57\n- demand_variance: 987.74\n- spatial_gini: 0.45\n- peak_beam_demand: 114.2\n- active_beam_fraction: 0.67",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.3002, \"switching\": 0.01, \"queue\": 0.03}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 49.11\n- demand_variance: 654.14\n- spatial_gini: 0.41\n- peak_beam_demand: 102.68\n- active_beam_fraction: 0.7",
+    "output": "{\"sum_rate\": 1.0068, \"fairness\": 0.0134, \"outage\": 0.9925, \"switching\": 0.0251, \"queue\": 0.0076}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 17.31\n- demand_variance: 144.92\n- spatial_gini: 0.18\n- peak_beam_demand: 27.47\n- active_beam_fraction: 0.46",
+    "output": "{\"sum_rate\": 1.0088, \"fairness\": 0.3187, \"outage\": 0.9567, \"switching\": 0.0083, \"queue\": 0.0082}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 26.29\n- demand_variance: 3062.82\n- spatial_gini: 0.23\n- peak_beam_demand: 166.9\n- active_beam_fraction: 0.36",
+    "output": "{\"sum_rate\": 0.9878, \"fairness\": 0.0282, \"outage\": 1.9772, \"switching\": 0.0244, \"queue\": 0.1009}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 7.22\n- demand_variance: 291.69\n- spatial_gini: 0.16\n- peak_beam_demand: 25.8\n- active_beam_fraction: 0.3",
+    "output": "{\"sum_rate\": 0.974, \"fairness\": 0.2997, \"outage\": 0.9783, \"switching\": 0.0021, \"queue\": 0.0185}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 54.18\n- demand_variance: 598.42\n- spatial_gini: 0.52\n- peak_beam_demand: 91.26\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 0.9608, \"fairness\": 0, \"outage\": 0.9956, \"switching\": 0.0079, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 25.81\n- demand_variance: 455.73\n- spatial_gini: 0.35\n- peak_beam_demand: 70.22\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.1396, \"outage\": 1.0, \"switching\": 0.01, \"queue\": 0.0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 36.71\n- demand_variance: 703.52\n- spatial_gini: 0.43\n- peak_beam_demand: 65.77\n- active_beam_fraction: 0.38",
+    "output": "{\"sum_rate\": 0.9706, \"fairness\": 0.0439, \"outage\": 1.0132, \"switching\": 0, \"queue\": 0.0339}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 7.26\n- demand_variance: 176.16\n- spatial_gini: 0.14\n- peak_beam_demand: 25.52\n- active_beam_fraction: 0.38",
+    "output": "{\"sum_rate\": 1.0128, \"fairness\": 0.3233, \"outage\": 0.9934, \"switching\": 0.0341, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 19.56\n- demand_variance: 3362.74\n- spatial_gini: 0.24\n- peak_beam_demand: 166.95\n- active_beam_fraction: 0.57",
+    "output": "{\"sum_rate\": 0.9985, \"fairness\": 0, \"outage\": 1.9788, \"switching\": 0.0312, \"queue\": 0.1017}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.85\n- demand_variance: 435.11\n- spatial_gini: 0.27\n- peak_beam_demand: 70.01\n- active_beam_fraction: 0.54",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.1596, \"outage\": 1.0, \"switching\": 0.01, \"queue\": 0.0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 9.72\n- demand_variance: 76.01\n- spatial_gini: 0.14\n- peak_beam_demand: 25.93\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 0.9761, \"fairness\": 0.2885, \"outage\": 0.982, \"switching\": 0.0389, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 30.23\n- demand_variance: 1617.54\n- spatial_gini: 0.2\n- peak_beam_demand: 102.39\n- active_beam_fraction: 0.79",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.695, \"switching\": 0.01, \"queue\": 0.0695}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 47.81\n- demand_variance: 2799.05\n- spatial_gini: 0.26\n- peak_beam_demand: 159.85\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 1.0205, \"fairness\": 0, \"outage\": 1.9977, \"switching\": 0.0418, \"queue\": 0.0996}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 64.92\n- demand_variance: 664.49\n- spatial_gini: 0.38\n- peak_beam_demand: 97.17\n- active_beam_fraction: 0.97",
+    "output": "{\"sum_rate\": 1.0325, \"fairness\": 0.0072, \"outage\": 1.0092, \"switching\": 0.0258, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 27.07\n- demand_variance: 308.65\n- spatial_gini: 0.35\n- peak_beam_demand: 78.39\n- active_beam_fraction: 0.63",
+    "output": "{\"sum_rate\": 0.9945, \"fairness\": 0, \"outage\": 1.0107, \"switching\": 0.0098, \"queue\": 0.0278}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 11.5\n- demand_variance: 317.58\n- spatial_gini: 0.15\n- peak_beam_demand: 17.64\n- active_beam_fraction: 0.18",
+    "output": "{\"sum_rate\": 1.0028, \"fairness\": 0.2774, \"outage\": 0.9688, \"switching\": 0.0227, \"queue\": 0.0137}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 9.94\n- demand_variance: 51.09\n- spatial_gini: 0.18\n- peak_beam_demand: 47.5\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 0.9602, \"fairness\": 0.2697, \"outage\": 0.9831, \"switching\": 0, \"queue\": 0.0009}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.59\n- demand_variance: 2697.28\n- spatial_gini: 0.12\n- peak_beam_demand: 207.61\n- active_beam_fraction: 0.34",
+    "output": "{\"sum_rate\": 1.0009, \"fairness\": 0, \"outage\": 2.0344, \"switching\": 0.0134, \"queue\": 0.1389}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 6.74\n- demand_variance: 170.04\n- spatial_gini: 0.08\n- peak_beam_demand: 39.41\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 0.983, \"fairness\": 0.3018, \"outage\": 0.9759, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 45.82\n- demand_variance: 616.45\n- spatial_gini: 0.27\n- peak_beam_demand: 43.85\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 1.0142, \"fairness\": 0.0151, \"outage\": 1.0053, \"switching\": 0.0209, \"queue\": 0.0255}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.52\n- demand_variance: 677.94\n- spatial_gini: 0.49\n- peak_beam_demand: 87.45\n- active_beam_fraction: 0.63",
+    "output": "{\"sum_rate\": 1.0008, \"fairness\": 0, \"outage\": 1.0277, \"switching\": 0.023, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.25\n- demand_variance: 846.49\n- spatial_gini: 0.45\n- peak_beam_demand: 115.72\n- active_beam_fraction: 0.51",
+    "output": "{\"sum_rate\": 1.0092, \"fairness\": 0.0163, \"outage\": 1.0255, \"switching\": 0.0163, \"queue\": 0.0185}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 11.5\n- demand_variance: 85.36\n- spatial_gini: 0.09\n- peak_beam_demand: 17.22\n- active_beam_fraction: 0.43",
+    "output": "{\"sum_rate\": 1.0106, \"fairness\": 0.2828, \"outage\": 0.9887, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 35.37\n- demand_variance: 2417.99\n- spatial_gini: 0.17\n- peak_beam_demand: 128.78\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 1.0026, \"fairness\": 0, \"outage\": 1.9934, \"switching\": 0, \"queue\": 0.0926}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 35.87\n- demand_variance: 1779.8\n- spatial_gini: 0.27\n- peak_beam_demand: 190.46\n- active_beam_fraction: 0.48",
+    "output": "{\"sum_rate\": 1.0484, \"fairness\": 0, \"outage\": 1.9944, \"switching\": 0.0016, \"queue\": 0.0806}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 27.27\n- demand_variance: 506.4\n- spatial_gini: 0.32\n- peak_beam_demand: 71.71\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 0.991, \"fairness\": 0.0013, \"outage\": 1.0193, \"switching\": 0.0156, \"queue\": 0.0285}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 43.28\n- demand_variance: 666.1\n- spatial_gini: 0.37\n- peak_beam_demand: 84.31\n- active_beam_fraction: 0.07",
+    "output": "{\"sum_rate\": 0.9985, \"fairness\": 0, \"outage\": 0.9834, \"switching\": 0.0395, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 39.29\n- demand_variance: 792.27\n- spatial_gini: 0.36\n- peak_beam_demand: 78.8\n- active_beam_fraction: 0.56",
+    "output": "{\"sum_rate\": 1.0056, \"fairness\": 0.0082, \"outage\": 1.0095, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.59\n- demand_variance: 187.36\n- spatial_gini: 0.18\n- peak_beam_demand: 23.67\n- active_beam_fraction: 0.28",
+    "output": "{\"sum_rate\": 1.0033, \"fairness\": 0.3049, \"outage\": 1.0099, \"switching\": 0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 39.31\n- demand_variance: 876.43\n- spatial_gini: 0.42\n- peak_beam_demand: 79.7\n- active_beam_fraction: 0.2",
+    "output": "{\"sum_rate\": 1.0073, \"fairness\": 0.0111, \"outage\": 1.025, \"switching\": 0.0386, \"queue\": 0.0182}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 2.8\n- demand_variance: 81.31\n- spatial_gini: 0.18\n- peak_beam_demand: 2.21\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 0.9635, \"fairness\": 0.3169, \"outage\": 0.9822, \"switching\": 0.031, \"queue\": 0.0642}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 15.89\n- demand_variance: 302.97\n- spatial_gini: 0.12\n- peak_beam_demand: 39.27\n- active_beam_fraction: 0.44",
+    "output": "{\"sum_rate\": 0.9671, \"fairness\": 0.3122, \"outage\": 1.0192, \"switching\": 0.0048, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.19\n- demand_variance: 2025.71\n- spatial_gini: 0.19\n- peak_beam_demand: 143.83\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 0.9814, \"fairness\": 0.0164, \"outage\": 2.0109, \"switching\": 0, \"queue\": 0.1313}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 35.25\n- demand_variance: 583.16\n- spatial_gini: 0.23\n- peak_beam_demand: 91.37\n- active_beam_fraction: 0.68",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.2965, \"switching\": 0.01, \"queue\": 0.0296}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 68.9\n- demand_variance: 776.19\n- spatial_gini: 0.36\n- peak_beam_demand: 80.16\n- active_beam_fraction: 0.73",
+    "output": "{\"sum_rate\": 0.9925, \"fairness\": 0.0097, \"outage\": 1.0105, \"switching\": 0.0278, \"queue\": 0.0285}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 13.69\n- demand_variance: 171.36\n- spatial_gini: 0.13\n- peak_beam_demand: 16.64\n- active_beam_fraction: 0.31",
+    "output": "{\"sum_rate\": 0.9964, \"fairness\": 0.2936, \"outage\": 1.004, \"switching\": 0.025, \"queue\": 0.014}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 33.73\n- demand_variance: 321.86\n- spatial_gini: 0.3\n- peak_beam_demand: 102.2\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 0.963, \"fairness\": 0.017, \"outage\": 1.0364, \"switching\": 0.0659, \"queue\": 0.0095}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 6.36\n- demand_variance: 3163.23\n- spatial_gini: 0.13\n- peak_beam_demand: 140.63\n- active_beam_fraction: 0.55",
+    "output": "{\"sum_rate\": 0.9876, \"fairness\": 0, \"outage\": 1.9903, \"switching\": 0.0246, \"queue\": 0.0813}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 56.85\n- demand_variance: 667.61\n- spatial_gini: 0.41\n- peak_beam_demand: 82.37\n- active_beam_fraction: 0.52",
+    "output": "{\"sum_rate\": 1.0097, \"fairness\": 0, \"outage\": 1.0002, \"switching\": 0.0196, \"queue\": 0.0089}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 29.01\n- demand_variance: 643.48\n- spatial_gini: 0.19\n- peak_beam_demand: 55.31\n- active_beam_fraction: 0.61",
+    "output": "{\"sum_rate\": 1.0168, \"fairness\": 0.0019, \"outage\": 1.0296, \"switching\": 0.0202, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 53.8\n- demand_variance: 979.04\n- spatial_gini: 0.48\n- peak_beam_demand: 134.78\n- active_beam_fraction: 0.91",
+    "output": "{\"sum_rate\": 0.9938, \"fairness\": 0, \"outage\": 1.0094, \"switching\": 0, \"queue\": 0.0233}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 47.62\n- demand_variance: 592.87\n- spatial_gini: 0.28\n- peak_beam_demand: 80.27\n- active_beam_fraction: 0.69",
+    "output": "{\"sum_rate\": 1.0354, \"fairness\": 0.0026, \"outage\": 1.0197, \"switching\": 0.0, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 50.62\n- demand_variance: 787.7\n- spatial_gini: 0.52\n- peak_beam_demand: 69.5\n- active_beam_fraction: 0.85",
+    "output": "{\"sum_rate\": 1.0093, \"fairness\": 0, \"outage\": 1.0242, \"switching\": 0.0547, \"queue\": 0.02}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 60.25\n- demand_variance: 617.74\n- spatial_gini: 0.62\n- peak_beam_demand: 100.73\n- active_beam_fraction: 0.64",
+    "output": "{\"sum_rate\": 0.9866, \"fairness\": 0.0051, \"outage\": 0.9666, \"switching\": 0.024, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 55.22\n- demand_variance: 718.58\n- spatial_gini: 0.42\n- peak_beam_demand: 93.71\n- active_beam_fraction: 0.79",
+    "output": "{\"sum_rate\": 0.9932, \"fairness\": 0.0213, \"outage\": 0.9772, \"switching\": 0.0101, \"queue\": 0.052}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 50.17\n- demand_variance: 203.8\n- spatial_gini: 0.36\n- peak_beam_demand: 73.43\n- active_beam_fraction: 0.51",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.1217, \"outage\": 1.0, \"switching\": 0.01, \"queue\": 0.0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 17.43\n- demand_variance: 275.19\n- spatial_gini: 0.18\n- peak_beam_demand: 12.13\n- active_beam_fraction: 0.41",
+    "output": "{\"sum_rate\": 0.9908, \"fairness\": 0.3143, \"outage\": 0.9805, \"switching\": 0, \"queue\": 0.0395}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 45.29\n- demand_variance: 851.2\n- spatial_gini: 0.3\n- peak_beam_demand: 53.23\n- active_beam_fraction: 0.5",
+    "output": "{\"sum_rate\": 1.0276, \"fairness\": 0, \"outage\": 0.9637, \"switching\": 0.0028, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 24.12\n- demand_variance: 629.15\n- spatial_gini: 0.3\n- peak_beam_demand: 76.5\n- active_beam_fraction: 0.55",
+    "output": "{\"sum_rate\": 1.008, \"fairness\": 0.0019, \"outage\": 1.0314, \"switching\": 0.0185, \"queue\": 0.0521}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 42.63\n- demand_variance: 1056.45\n- spatial_gini: 0.42\n- peak_beam_demand: 141.13\n- active_beam_fraction: 0.49",
+    "output": "{\"sum_rate\": 1.0, \"fairness\": 0.0, \"outage\": 1.6008, \"switching\": 0.01, \"queue\": 0.0601}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 31.37\n- demand_variance: 759.19\n- spatial_gini: 0.46\n- peak_beam_demand: 138.9\n- active_beam_fraction: 0.49",
+    "output": "{\"sum_rate\": 1.0294, \"fairness\": 0.003, \"outage\": 1.0082, \"switching\": 0.0124, \"queue\": 0.0089}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 23.77\n- demand_variance: 542.98\n- spatial_gini: 0.36\n- peak_beam_demand: 78.08\n- active_beam_fraction: 0.62",
+    "output": "{\"sum_rate\": 0.9923, \"fairness\": 0.0302, \"outage\": 1.0135, \"switching\": 0.0122, \"queue\": 0.0121}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 14.21\n- demand_variance: 258.88\n- spatial_gini: 0.06\n- peak_beam_demand: 12.13\n- active_beam_fraction: 0.29",
+    "output": "{\"sum_rate\": 0.996, \"fairness\": 0.3116, \"outage\": 1.0004, \"switching\": 0.0216, \"queue\": 0}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 34.12\n- demand_variance: 2141.18\n- spatial_gini: 0.12\n- peak_beam_demand: 175.63\n- active_beam_fraction: 0.78",
+    "output": "{\"sum_rate\": 0.9658, \"fairness\": 0, \"outage\": 1.9989, \"switching\": 0.0158, \"queue\": 0.0807}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 6.78\n- demand_variance: 113.53\n- spatial_gini: 0.19\n- peak_beam_demand: 14.95\n- active_beam_fraction: 0.36",
+    "output": "{\"sum_rate\": 1.002, \"fairness\": 0.3214, \"outage\": 0.9988, \"switching\": 0.0111, \"queue\": 0.0102}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 36.72\n- demand_variance: 2285.43\n- spatial_gini: 0.2\n- peak_beam_demand: 180.07\n- active_beam_fraction: 0.42",
+    "output": "{\"sum_rate\": 0.9981, \"fairness\": 0.0083, \"outage\": 1.9919, \"switching\": 0.0062, \"queue\": 0.0963}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 21.91\n- demand_variance: 1850.81\n- spatial_gini: 0.24\n- peak_beam_demand: 259.39\n- active_beam_fraction: 0.36",
+    "output": "{\"sum_rate\": 0.9805, \"fairness\": 0, \"outage\": 2.0127, \"switching\": 0.0092, \"queue\": 0.0821}"
+  },
+  {
+    "instruction": "You are the MDP Architect for a 19-beam LEO satellite beam scheduling system.\nGiven the current network KPIs, output the optimal reward weights as JSON.\nAll weights must be POSITIVE. The environment formula is: reward = sum_rate*R - outage*O - switching*S - queue*Q + fairness*F.\nOutput ONLY valid JSON, no explanation.",
+    "input": "Current Network KPIs:\n- avg_demand: 10.31\n- demand_variance: 285.0\n- spatial_gini: 0.09\n- peak_beam_demand: 23.22\n- active_beam_fraction: 0.34",
+    "output": "{\"sum_rate\": 1.0234, \"fairness\": 0.3333, \"outage\": 1.0008, \"switching\": 0.0468, \"queue\": 0}"
+  }
+]

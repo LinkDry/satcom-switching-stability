@@ -1,0 +1,25 @@
+{
+  "no_adapt": {
+    "mean_reward": 4722.040659282473,
+    "mean_sum_rate_mbps": 236.12903296412398,
+    "mean_outage_count": 0.00025,
+    "std_sum_rate_mbps": 26.104014268459586
+  },
+  "with_adapt": {
+    "mean_reward": -4624.804372105794,
+    "mean_sum_rate_mbps": 169.8424480613769,
+    "mean_outage_count": 4.002666666666666,
+    "std_sum_rate_mbps": 74.6939318940138
+  },
+  "improvement_rate_mbps": -66.28658490274708,
+  "improvement_outage": -4.002416666666666,
+  "train_time_s": 376.75621223449707,
+  "seed": 42,
+  "mdp_switches": 0,
+  "llm_stats": {
+    "call_count": 0,
+    "total_latency_s": 0.0,
+    "avg_latency_s": 0.0
+  },
+  "method": "novel_regime"
+}

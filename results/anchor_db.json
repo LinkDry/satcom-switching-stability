@@ -1,0 +1,2702 @@
+[
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.552849674147989,
+      0.12333333333333334,
+      0.0,
+      0.09247972116728462
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 55.284967414798906,
+    "source": "probe_round1",
+    "notes": "base"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.9044287952742114,
+      3.1366666666666667,
+      0.0,
+      0.14870666619271167
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 90.44287952742114,
+    "source": "probe_round1",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.2260997806991448,
+      7.0,
+      0.0,
+      0.03701757593604621
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.72,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 22.60997806991448,
+    "source": "probe_round1",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3206571572032753,
+      8.403333333333334,
+      0.0,
+      0.054027166166971556
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 32.06571572032753,
+    "source": "probe_round1",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.23996659615347887,
+      6.456666666666667,
+      0.0,
+      0.03781382429425005
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 23.996659615347887,
+    "source": "probe_round1",
+    "notes": "base"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.15062212360294955,
+      6.156666666666666,
+      0.0,
+      0.032631605554572014
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 15.062212360294955,
+    "source": "probe_round1",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.4475781127136439,
+      4.763333333333334,
+      0.0,
+      0.07359740536193128
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 44.75781127136439,
+    "source": "probe_round1",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.904428316347887,
+      4.196666666666666,
+      0.0,
+      0.14602955043113383
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 90.4428316347887,
+    "source": "probe_round1",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.44241121427663976,
+      5.616666666666666,
+      0.0,
+      0.07234023738364086
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.24
+    },
+    "perf_mbps": 44.24112142766398,
+    "source": "probe_round1",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.3137092916369733,
+      3.98,
+      0.0,
+      0.05035087887407593
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 31.37092916369733,
+    "source": "probe_round1",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.16165235997171673,
+      6.2,
+      0.0,
+      0.026989599028283
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 16.165235997171674,
+    "source": "probe_round1",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      1.2898996178706295,
+      2.066666666666667,
+      0.0,
+      0.2000706358849307
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 128.98996178706295,
+    "source": "probe_round1",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.34155816024706304,
+      8.993333333333334,
+      0.0,
+      0.052105263694399044
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.36
+    },
+    "perf_mbps": 34.155816024706304,
+    "source": "probe_round1",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.25833827403509024,
+      5.25,
+      0.0,
+      0.04340274482481325
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 25.833827403509023,
+    "source": "probe_round2",
+    "notes": "base"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.11930735856031197,
+      9.093333333333334,
+      0.0,
+      0.022105288607364937
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 11.930735856031196,
+    "source": "probe_round2",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3331580570049217,
+      4.1033333333333335,
+      0.0,
+      0.04963755051621723
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.72,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 33.31580570049217,
+    "source": "probe_round2",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.9408075605764817,
+      4.996666666666667,
+      0.0,
+      0.15068973574718825
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.8,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 94.08075605764817,
+    "source": "probe_round2",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.6935498761545983,
+      3.6166666666666667,
+      0.0,
+      0.11085327491310447
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 69.35498761545983,
+    "source": "probe_round2",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.5222331983400188,
+      3.276666666666667,
+      0.0,
+      0.08749705588462335
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 52.223319834001884,
+    "source": "probe_round2",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.05706596477218039,
+      7.6033333333333335,
+      0.0,
+      0.011369973966819965
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.36,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 5.7065964772180395,
+    "source": "probe_round2",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.14445448549495898,
+      4.786666666666667,
+      0.0,
+      0.02924267053617559
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 14.445448549495898,
+    "source": "probe_round2",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      1.575150021221887,
+      0.72,
+      0.0,
+      0.2329010340447804
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 157.5150021221887,
+    "source": "probe_round2",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.6768523809270577,
+      6.703333333333333,
+      0.0,
+      0.10147283633950992
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.24
+    },
+    "perf_mbps": 67.68523809270577,
+    "source": "probe_round2",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.5952359720429498,
+      2.5633333333333335,
+      0.0,
+      0.09703346597765157
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 59.52359720429498,
+    "source": "probe_round2",
+    "notes": "base"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.08901179614286077,
+      7.526666666666666,
+      0.0,
+      0.013684281333761887
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 8.901179614286077,
+    "source": "probe_round2",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.14825514545570362,
+      6.983333333333333,
+      0.0,
+      0.024385994163116858
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 14.825514545570362,
+    "source": "probe_round2",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.31396728005545915,
+      9.026666666666667,
+      0.0,
+      0.0512280727003094
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.44,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 31.396728005545913,
+    "source": "probe_round2",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.3040912810396928,
+      6.0,
+      0.0,
+      0.05263157895650453
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 30.40912810396928,
+    "source": "probe_round2",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.37684469099409085,
+      6.703333333333333,
+      0.0,
+      0.05952680737154148
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.36
+    },
+    "perf_mbps": 37.684469099409085,
+    "source": "probe_round2",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.5254773198178345,
+      3.1933333333333334,
+      0.0,
+      0.08312099809676918
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 52.54773198178346,
+    "source": "probe_round3",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      1.302492633654359,
+      0.08,
+      0.0,
+      0.20059863093824123
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 130.2492633654359,
+    "source": "probe_round3",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3124356715525135,
+      6.053333333333334,
+      0.0,
+      0.05263157895578326
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.96
+    },
+    "perf_mbps": 31.24356715525135,
+    "source": "probe_round3",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.9738889450185024,
+      0.09666666666666666,
+      0.0,
+      0.15186624564988985
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 97.38889450185025,
+    "source": "probe_round3",
+    "notes": "base"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.28181259255449914,
+      6.786666666666667,
+      0.0,
+      0.0426536731236813
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 28.181259255449913,
+    "source": "probe_round3",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.27326335315796835,
+      6.016666666666667,
+      0.0,
+      0.04578947830093769
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.36,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 27.326335315796836,
+    "source": "probe_round3",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.37999968545882856,
+      8.826666666666666,
+      0.0,
+      0.0612723321972215
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 37.99996854588286,
+    "source": "probe_round3",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.39961289601647876,
+      6.176666666666667,
+      0.0,
+      0.07048818015678113
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 39.96128960164788,
+    "source": "probe_round3",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.4303071909601446,
+      5.78,
+      0.0,
+      0.06881344005507796
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.24
+    },
+    "perf_mbps": 43.03071909601446,
+    "source": "probe_round3",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.26374825039140876,
+      9.193333333333333,
+      0.0,
+      0.04210529708381164
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 26.374825039140877,
+    "source": "probe_round3",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.366403315217595,
+      6.696666666666666,
+      0.0,
+      0.06012233451665741
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.44,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 36.6403315217595,
+    "source": "probe_round3",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.6070673549028659,
+      2.006666666666667,
+      0.0,
+      0.10205013584275079
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 60.70673549028659,
+    "source": "probe_round3",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 235.09197961689392,
+    "source": "EVOLVED_v2_round2_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.96,
+      "queue": 0.24
+    },
+    "perf_mbps": 235.09197961689392,
+    "source": "EVOLVED_v2_round2_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.36
+    },
+    "perf_mbps": 235.09197961689392,
+    "source": "EVOLVED_v2_round2_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 106.53533778252626,
+    "source": "EVOLVED_v2_round3_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.96,
+      "queue": 0.24
+    },
+    "perf_mbps": 106.53533778252626,
+    "source": "EVOLVED_v2_round3_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.36
+    },
+    "perf_mbps": 106.53533778252626,
+    "source": "EVOLVED_v2_round3_seed42",
+    "notes": "aggregate_novel"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.30200197533547035,
+      7.806666666666667,
+      0.0,
+      0.049201255221283935
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 30.200197533547033,
+    "source": "probe_round4",
+    "notes": "base"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.33438415666828264,
+      5.986666666666666,
+      0.0,
+      0.053961492915153265
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 33.43841566682826,
+    "source": "probe_round4",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.22053446213836292,
+      9.29,
+      0.0,
+      0.03684213077354343
+    ],
+    "weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 22.053446213836292,
+    "source": "probe_round4",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.2583831657363185,
+      6.593333333333334,
+      0.0,
+      0.041992884763590456
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.48,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 25.838316573631847,
+    "source": "probe_round4",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.1525843951777441,
+      6.1433333333333335,
+      0.0,
+      0.024385997241243428
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.8,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 15.258439517774411,
+    "source": "probe_round4",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.09099371191315431,
+      9.716666666666667,
+      0.0,
+      0.015087852797927237
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 9.09937119131543,
+    "source": "probe_round4",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.23696994062363935,
+      7.933333333333334,
+      0.0,
+      0.038800109591023264
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 23.696994062363935,
+    "source": "probe_round4",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3004030391181642,
+      6.1066666666666665,
+      0.0,
+      0.04901756040864923
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.08,
+      "queue": 0.8
+    },
+    "perf_mbps": 30.040303911816416,
+    "source": "probe_round4",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3230078137029245,
+      6.8533333333333335,
+      0.0,
+      0.05225457172735699
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.96
+    },
+    "perf_mbps": 32.30078137029245,
+    "source": "probe_round4",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.1135868278962841,
+      6.726666666666667,
+      0.0,
+      0.018652191079458754
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 11.35868278962841,
+    "source": "probe_round4",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.3262417554135997,
+      8.57,
+      0.0,
+      0.05166393864297464
+    ],
+    "weights": {
+      "sum_rate": 0.64,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 32.62417554135997,
+    "source": "probe_round4",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.313436116895911,
+      5.98,
+      0.0,
+      0.052433345238862505
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 31.3436116895911,
+    "source": "probe_round4",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.23811704876636153,
+      9.246666666666666,
+      0.0,
+      0.03782987991080384
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 0.8,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 23.811704876636153,
+    "source": "probe_round4",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.32415832794516836,
+      8.476666666666667,
+      0.0,
+      0.05245614064916896
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.16
+    },
+    "perf_mbps": 32.41583279451684,
+    "source": "probe_round4",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.28044044461490275,
+      9.133333333333333,
+      0.0,
+      0.04561404399983289
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 28.044044461490273,
+    "source": "probe_round4",
+    "notes": "base"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.28605644154059967,
+      8.023333333333333,
+      0.0,
+      0.04666667878297542
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 28.605644154059966,
+    "source": "probe_round4",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.060221719231948675,
+      7.056666666666667,
+      0.0,
+      0.00981716431930587
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 6.022171923194867,
+    "source": "probe_round4",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.3226066528487392,
+      7.906666666666666,
+      0.0,
+      0.05228069410257845
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.04,
+      "queue": 0.3
+    },
+    "perf_mbps": 32.260665284873916,
+    "source": "probe_round4",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3236480639389871,
+      5.4366666666666665,
+      0.0,
+      0.05365131658657643
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 32.36480639389871,
+    "source": "probe_round5",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.8276423867759817,
+      3.1733333333333333,
+      0.0,
+      0.12879771523713476
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.48,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 82.76423867759817,
+    "source": "probe_round5",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.05782190318969804,
+      9.173333333333334,
+      0.0,
+      0.009991134837844239
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.8,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 5.782190318969804,
+    "source": "probe_round5",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3957024663507589,
+      8.69,
+      0.0,
+      0.06242749775258486
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 39.57024663507589,
+    "source": "probe_round5",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.9270402894625728,
+      0.07,
+      0.0,
+      0.1477785139149262
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.08,
+      "queue": 0.8
+    },
+    "perf_mbps": 92.70402894625728,
+    "source": "probe_round5",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3120979020335914,
+      3.07,
+      0.0,
+      0.049885096004409914
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.96
+    },
+    "perf_mbps": 31.20979020335914,
+    "source": "probe_round5",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3219138110224658,
+      7.046666666666667,
+      0.0,
+      0.052631578953414956
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.64
+    },
+    "perf_mbps": 32.19138110224658,
+    "source": "probe_round5",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.3284184151761387,
+      5.693333333333333,
+      0.0,
+      0.05434668112071681
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 32.841841517613865,
+    "source": "probe_round5",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.8678783062853221,
+      2.763333333333333,
+      0.0,
+      0.1297763555540724
+    ],
+    "weights": {
+      "sum_rate": 0.64,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 86.78783062853222,
+    "source": "probe_round5",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.3155006501672697,
+      8.243333333333334,
+      0.0,
+      0.0532878945727654
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.36,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 31.550065016726972,
+    "source": "probe_round5",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.2728190604587792,
+      7.07,
+      0.0,
+      0.051657938701624516
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.24,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 27.281906045877918,
+    "source": "probe_round5",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.9173801047984331,
+      2.1466666666666665,
+      0.0,
+      0.1480602349509836
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 91.73801047984331,
+    "source": "probe_round5",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.10858491890497016,
+      4.446666666666666,
+      0.0,
+      0.01640074980268344
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 10.858491890497016,
+    "source": "probe_round5",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.23933819401624232,
+      5.706666666666667,
+      0.0,
+      0.037543890090029064
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.64,
+      "queue": 0.2
+    },
+    "perf_mbps": 23.93381940162423,
+    "source": "probe_round5",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.336843748731911,
+      5.206666666666667,
+      0.0,
+      0.05455731940445246
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 33.684374873191096,
+    "source": "probe_round5",
+    "notes": "base"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.5935505589607698,
+      6.136666666666667,
+      0.0,
+      0.09764817869737322
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 59.35505589607698,
+    "source": "probe_round5",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.595925401045007,
+      2.486666666666667,
+      0.0,
+      0.09240291971870294
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.4,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 59.592540104500706,
+    "source": "probe_round5",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.3242237439950661,
+      6.993333333333333,
+      0.0,
+      0.05280365559597213
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 32.42237439950661,
+    "source": "probe_round5",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.13068461875771636,
+      5.84,
+      0.0,
+      0.021578983826544343
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.04,
+      "queue": 0.3
+    },
+    "perf_mbps": 13.068461875771636,
+    "source": "probe_round5",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.37249943481799375,
+      7.99,
+      0.0,
+      0.052807017274050086
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.36
+    },
+    "perf_mbps": 37.24994348179938,
+    "source": "probe_round5",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.27206649412119044,
+      3.026666666666667,
+      0.0,
+      0.043677577289621586
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.24
+    },
+    "perf_mbps": 27.206649412119045,
+    "source": "probe_round5",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.1839058255657947,
+      6.736666666666666,
+      0.0,
+      0.030507231578872893
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 18.39058255657947,
+    "source": "probe_round6",
+    "notes": "base"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.8808186479142012,
+      3.236666666666667,
+      0.0,
+      0.1455565338549569
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 88.08186479142012,
+    "source": "probe_round6",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.339878555749033,
+      7.68,
+      0.0,
+      0.05431705154731314
+    ],
+    "weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 33.9878555749033,
+    "source": "probe_round6",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.2951610508238922,
+      8.753333333333334,
+      0.0,
+      0.051929826086556594
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.72,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 29.51610508238922,
+    "source": "probe_round6",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.18785778110215168,
+      8.79,
+      0.0,
+      0.031217104576021608
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.48,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 18.78577811021517,
+    "source": "probe_round6",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.8435333113826851,
+      2.1433333333333335,
+      0.0,
+      0.13354791955084666
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.8,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 84.3533311382685,
+    "source": "probe_round6",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.27223605441289966,
+      4.966666666666667,
+      0.0,
+      0.044561413578864714
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 27.223605441289966,
+    "source": "probe_round6",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.31541004683392787,
+      4.6466666666666665,
+      0.0,
+      0.05063419772400002
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.08,
+      "queue": 0.8
+    },
+    "perf_mbps": 31.541004683392785,
+    "source": "probe_round6",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.06755046678129797,
+      5.66,
+      0.0,
+      0.011929913419544785
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.64
+    },
+    "perf_mbps": 6.755046678129797,
+    "source": "probe_round6",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.7749405243760763,
+      2.276666666666667,
+      0.0,
+      0.11003257400085407
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 77.49405243760764,
+    "source": "probe_round6",
+    "notes": "base"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.4062420618284737,
+      6.373333333333333,
+      0.0,
+      0.06714255745470442
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.36,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 40.624206182847374,
+    "source": "probe_round6",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.7744833800017659,
+      1.8033333333333332,
+      0.0,
+      0.13194985417696473
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.24,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 77.44833800017659,
+    "source": "probe_round6",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.2928220907838249,
+      5.066666666666666,
+      0.0,
+      0.04543841560186727
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 29.282209078382486,
+    "source": "probe_round6",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.34403234337935806,
+      3.89,
+      0.0,
+      0.05949287733915789
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 0.8,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 34.40323433793581,
+    "source": "probe_round6",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.5990548920531488,
+      4.456666666666667,
+      0.0,
+      0.09867516446870274
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 59.90548920531488,
+    "source": "probe_round6",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.094641482822917,
+      6.78,
+      0.0,
+      0.01754389704562703
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.64,
+      "queue": 0.2
+    },
+    "perf_mbps": 9.4641482822917,
+    "source": "probe_round6",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.34486616915997864,
+      7.406666666666666,
+      0.0,
+      0.04718447999229289
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.24
+    },
+    "perf_mbps": 34.486616915997864,
+    "source": "probe_round6",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.3443121265592915,
+      3.27,
+      0.0,
+      0.05522402456797835
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.16
+    },
+    "perf_mbps": 34.43121265592915,
+    "source": "probe_round6",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.4445355929862222,
+      3.0233333333333334,
+      0.0,
+      0.07153574667750263
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 44.45355929862222,
+    "source": "probe_round6",
+    "notes": "base"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.6372032699052945,
+      8.016666666666667,
+      0.0,
+      0.10094225239762156
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.4,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 63.72032699052945,
+    "source": "probe_round6",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.20277427908524465,
+      9.373333333333333,
+      0.0,
+      0.031382448955593105
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.44,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 20.277427908524466,
+    "source": "probe_round6",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.6334235045866247,
+      7.12,
+      0.0,
+      0.10141928226197737
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 0.96,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 63.342350458662466,
+    "source": "probe_round6",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.41694805413750335,
+      3.8633333333333333,
+      0.0,
+      0.06518604956141805
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 41.69480541375034,
+    "source": "probe_round6",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.11756645189930662,
+      8.326666666666666,
+      0.0,
+      0.0182456865444799
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.36
+    },
+    "perf_mbps": 11.756645189930662,
+    "source": "probe_round6",
+    "notes": "queue +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.315546263418368,
+      4.746666666666667,
+      0.0,
+      0.052631578954611694
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.24
+    },
+    "perf_mbps": 31.554626341836798,
+    "source": "probe_round6",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.8364743624759327,
+      2.36,
+      0.0,
+      0.12519499357891864
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 83.64743624759326,
+    "source": "probe_round7",
+    "notes": "base"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.3533827324308518,
+      7.9,
+      0.0,
+      0.056975220634640174
+    ],
+    "weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 35.338273243085176,
+    "source": "probe_round7",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.2840619580096893,
+      7.206666666666667,
+      0.0,
+      0.051052636289036224
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.72,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 28.40619580096893,
+    "source": "probe_round7",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.9304709785207699,
+      0.04,
+      0.0,
+      0.15184425324728767
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.48,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 93.04709785207699,
+    "source": "probe_round7",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.2707752930339571,
+      4.126666666666667,
+      0.0,
+      0.049627813164161885
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "perf_mbps": 27.077529303395707,
+    "source": "probe_round7",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.5608250424133417,
+      5.066666666666666,
+      0.0,
+      0.08919524085720934
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.12,
+      "queue": 0.8
+    },
+    "perf_mbps": 56.08250424133417,
+    "source": "probe_round7",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "iot_burst",
+    "kpi_vector": [
+      0.0,
+      0.6568696450988711,
+      2.1,
+      0.0,
+      0.10110449909220169
+    ],
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.64
+    },
+    "perf_mbps": 65.68696450988712,
+    "source": "probe_round7",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.22716885899070666,
+      2.0966666666666667,
+      0.0,
+      0.03614035519113643
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 22.716885899070665,
+    "source": "probe_round7",
+    "notes": "base"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.13379396925917686,
+      9.22,
+      0.0,
+      0.021926373570500975
+    ],
+    "weights": {
+      "sum_rate": 0.96,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 13.379396925917687,
+    "source": "probe_round7",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.4118893612118624,
+      8.786666666666667,
+      0.0,
+      0.06255471775822237
+    ],
+    "weights": {
+      "sum_rate": 0.64,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 41.188936121186245,
+    "source": "probe_round7",
+    "notes": "sum_rate -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.1930213270747802,
+      6.54,
+      0.0,
+      0.03472961894887194
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.36,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 19.30213270747802,
+    "source": "probe_round7",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.37471141034268013,
+      8.866666666666667,
+      0.0,
+      0.05917613209054404
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.24,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 37.471141034268015,
+    "source": "probe_round7",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.32062050071173354,
+      7.426666666666667,
+      0.0,
+      0.05501888764019471
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.2,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 32.06205007117335,
+    "source": "probe_round7",
+    "notes": "outage +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.6116017773783136,
+      7.886666666666667,
+      0.0,
+      0.0966798554776611
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 0.8,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "perf_mbps": 61.160177737831354,
+    "source": "probe_round7",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      1.1439441865436306,
+      0.72,
+      0.0,
+      0.17614207273068122
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.96,
+      "queue": 0.2
+    },
+    "perf_mbps": 114.39441865436307,
+    "source": "probe_round7",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.4022003858340685,
+      2.6533333333333333,
+      0.0,
+      0.0631573456056166
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.64,
+      "queue": 0.2
+    },
+    "perf_mbps": 40.22003858340685,
+    "source": "probe_round7",
+    "notes": "switching -20%"
+  },
+  {
+    "regime": "polar_handover",
+    "kpi_vector": [
+      0.0,
+      0.17109584970952743,
+      5.326666666666667,
+      0.0,
+      0.029054061544122205
+    ],
+    "weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.16
+    },
+    "perf_mbps": 17.109584970952742,
+    "source": "probe_round7",
+    "notes": "queue -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      1.0321396067226778,
+      0.02,
+      0.0,
+      0.16169035358310022
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 103.21396067226779,
+    "source": "probe_round7",
+    "notes": "base"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.32704025649970114,
+      2.8333333333333335,
+      0.0,
+      0.05210526351345901
+    ],
+    "weights": {
+      "sum_rate": 1.2,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 32.70402564997011,
+    "source": "probe_round7",
+    "notes": "sum_rate +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.5677657844331173,
+      6.32,
+      0.0,
+      0.0959479851964574
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.6,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 56.77657844331173,
+    "source": "probe_round7",
+    "notes": "fairness +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.31047779032284084,
+      6.06,
+      0.0,
+      0.05105199624302974
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.4,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 31.047779032284083,
+    "source": "probe_round7",
+    "notes": "fairness -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.20529870239974113,
+      9.37,
+      0.0,
+      0.033157944380182075
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 0.96,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "perf_mbps": 20.529870239974112,
+    "source": "probe_round7",
+    "notes": "outage -20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.2918943882635181,
+      6.513333333333334,
+      0.0,
+      0.05210526366523018
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.06,
+      "queue": 0.3
+    },
+    "perf_mbps": 29.18943882635181,
+    "source": "probe_round7",
+    "notes": "switching +20%"
+  },
+  {
+    "regime": "hot_cold",
+    "kpi_vector": [
+      0.0,
+      0.32949460469191594,
+      6.973333333333334,
+      0.0,
+      0.05328524543347484
+    ],
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.36
+    },
+    "perf_mbps": 32.94946046919159,
+    "source": "probe_round7",
+    "notes": "queue +20%"
+  }
+]

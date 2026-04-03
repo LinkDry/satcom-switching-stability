@@ -1,0 +1,8846 @@
+[
+  {
+    "step": 62500,
+    "phase": "known",
+    "regime": "mixed",
+    "weights": {
+      "sum_rate": 1.005,
+      "fairness": 0.0309,
+      "outage": 1.053,
+      "switching": 0.0215,
+      "queue": 0.0309
+    }
+  },
+  {
+    "step": 125000,
+    "phase": "known",
+    "regime": "mixed",
+    "weights": {
+      "sum_rate": 1.0025,
+      "fairness": 0.0434,
+      "outage": 0.9775,
+      "switching": 0.0232,
+      "queue": 0.0259
+    }
+  },
+  {
+    "step": 1,
+    "phase": "novel_train",
+    "from_regime": null,
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 1000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 1200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 1400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 1601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 1800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 2000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 2200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 2401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 2600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 2800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 3000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 3201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 3400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 3600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 3800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 4001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 4200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 4400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 4600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 4801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 5000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 5200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 5400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 5601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 5800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 6000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 6200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 6401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 6600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 6800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 7000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 7201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 7400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 7600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 7800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 8001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 8200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 8400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 8600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 8801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 9000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 9200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 9400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 9601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 9800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 10000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 10200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 10401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 10600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 10800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 11000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 11201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 11400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 11600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 11800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 12001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 12200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 12400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 12600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 12801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 13000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 13200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 13400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 13601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 13800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 14000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 14200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 14401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 14600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 14800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 15000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 15201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 15400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 15600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 15800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 16001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 16200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 16400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 16600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 16801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 17000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 17200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 17400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 17601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 17800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 18000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 18200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 18401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 18600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 18800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 19000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 19201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 19400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 19600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 19800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 20001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 20200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 20400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 20600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 20801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 21000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 21200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 21400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 21601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 21800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 22000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 22200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 22401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 22600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 22800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 23000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 23201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 23400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 23600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 23800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 24001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 24200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 24400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 24600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 24801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 25000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 25200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 25400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 25601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 25800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 26000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 26200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 26401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 26600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 26800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 27000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 27201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 27400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 27600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 27800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 28001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 28200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 28400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 28600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 28801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 29000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 29200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 29400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 29601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 29800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 30000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 30200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 30401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 30600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 30800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 31000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 31201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 31400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 31600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 31800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 32001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 32200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 32400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 32600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 32801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 33000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 33200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 33400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 33601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 33800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 34000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 34200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 34401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 34600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 34800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 35000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 35201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 35400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 35600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 35800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 36001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 36200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 36400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 36600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 36801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 37000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 37200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 37400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 37601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 37800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 38000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 38200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 38401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 38600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 38800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 39000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 39201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 39400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 39600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 39800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 40001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 40200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 40400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 40600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 40801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 41000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 41200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 41400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 41601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 41800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 42000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 42200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 42401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 42600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 42800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 43000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 43201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 43400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 43600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 43800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 44001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 44200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 44400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 44600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 44801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 45000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 45200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 45400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 45601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 45800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 46000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 46200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 46401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 46600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 46800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 47000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 47201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 47400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 47600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 47800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 48001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 48200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 48400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 48600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 48801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 49000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 49200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 49400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 49601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 49800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 50000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 50200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 50401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 50600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 50800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 51000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 51201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 51400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 51600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 51800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 52001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 52200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 52400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 52600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 52801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 53000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 53200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 53400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 53601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 53800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 54000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 54200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 54401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 54600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 54800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 55000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 55201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 55400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 55600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 55800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 56001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 56200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 56400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 56600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 56801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 57000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 57200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 57400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 57601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 57800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 58000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 58200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 58401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 58600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 58800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 59000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 59201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 59400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 59600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 59800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 60001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 60200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 60400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 60600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 60801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 61000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 61200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 61400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 61601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 61800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 62000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 62200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 62401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 62600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 62800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 63000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 63201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 63400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 63600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 63800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 64001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 64200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 64400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 64600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 64801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 65000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 65200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 65400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 65601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 65800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 66000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 66200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 66401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 66600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 66800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 67000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 67201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 67400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 67600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 67800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 68001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 68200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 68400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 68600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 68801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 69000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 69200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 69400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 69601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 69800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 70000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 70200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 70401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 70600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 70800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 71000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 71201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 71400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 71600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 71800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 72001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 72200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 72400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 72600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 72801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 73000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 73200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 73400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 73601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 73800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 74000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 74200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 74401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 74600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 74800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 75000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 75201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 75400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 75600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 75800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 76001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 76200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 76400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 76600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 76801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 77000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 77200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 77400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 77601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 77800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 78000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 78200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 78401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 78600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 78800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 79000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 79201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 79400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 79600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 79800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 80001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 80200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 80400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 80600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 80801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 81000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 81200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 81400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 81601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 81800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 82000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 82200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 82401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 82600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 82800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 83000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 83201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 83400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 83600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 83800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 84001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 84200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 84400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 84600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 84801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 85000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 85200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 85400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 85601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 85800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 86000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 86200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 86401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 86600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 86800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 87000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 87201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 87400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 87600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 87800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 88001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 88200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 88400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 88600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 88801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 89000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 89200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 89400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 89601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 89800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 90000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 90200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 90401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 90600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 90800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 91000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 91201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 91400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 91600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 91800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 92001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 92200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 92400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 92600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 92801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 93000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 93200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 93400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 93601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 93800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 94000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 94200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 94401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 94600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 94800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 95000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 95201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 95400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 95600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 95800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 96001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 96200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 96400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 96600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 96801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 97000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 97200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 97400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 97601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 97800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 98000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 98200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 98401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 98600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 98800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 99000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 99201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 99400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 99600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 99800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 100001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 100200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 100400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 100600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 100801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 101000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 101200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 101400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 101601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 101800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 102000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 102200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 102401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 102600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 102800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 103000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 103201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 103400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 103600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 103800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 104001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 104200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 104400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 104600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 104801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 105000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 105200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 105400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 105601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 105800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 106000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 106200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 106401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 106600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 106800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 107000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 107201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 107400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 107600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 107800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 108001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 108200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 108400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 108600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 108801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 109000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 109200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 109400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 109601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 109800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 110000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 110200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 110401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 110600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 110800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 111000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 111201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 111400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 111600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 111800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 112001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 112200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 112400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 112600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 112801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 113000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 113200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 113400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 113601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 113800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 114000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 114200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 114401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 114600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 114800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 115000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 115201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 115400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 115600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 115800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 116001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 116200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 116400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 116600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 116801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 117000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 117200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 117400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 117601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 117800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 118000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 118200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 118401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 118600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 118800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 119000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 119201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 119400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 119600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 119800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 120001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 120200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 120400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 120600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 120801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 121000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 121200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 121400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 121601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 121800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 122000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 122200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 122401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 122600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 122800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 123000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 123201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 123400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 123600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 123800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 124001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 124200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 124400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 124600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 124801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 125000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 125200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 125400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 125601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 125800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 126000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 126200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 126401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 126600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 126800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 127000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 127201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 127400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 127600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 127800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 128001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 128200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 128400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 128600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 128801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 129000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 129200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 129400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 129601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 129800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 130000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 130200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 130401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 130600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 130800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 131000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 131201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 131400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 131600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 131800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 132001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 132200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 132400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 132600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 132801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 133000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 133200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 133400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 133601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 133800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 134000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 134200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 134401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 134600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 134800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 135000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 135201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 135400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 135600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 135800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 136001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 136200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 136400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 136600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 136801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 137000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 137200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 137400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 137601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 137800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 138000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 138200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 138401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 138600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 138800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 139000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 139201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 139400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 139600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 139800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 140001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 140200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 140400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 140600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 140801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 141000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 141200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 141400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 141601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 141800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 142000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 142200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 142401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 142600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 142800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 143000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 143201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 143400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 143600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 143800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 144001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 144200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 144400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 144600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 144801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 145000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 145200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 145400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 145601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 145800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 146000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 146200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 146401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 146600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 146800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 147000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 147201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 147400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 147600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 147800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 148001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 148200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 148400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 148600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 148801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 149000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 149200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 149400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 149601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 149800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 150000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 150200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 150401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 150600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 150800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 151000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 151201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 151400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 151600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 151800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 152001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 152200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 152400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 152600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 152801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 153000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 153200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 153400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 153601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 153800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 154000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 154200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 154401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 154600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 154800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 155000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 155201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 155400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 155600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 155800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 156001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 156200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 156400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 156600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 156801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 157000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 157200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 157400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 157601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 157800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 158000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 158200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 158401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 158600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 158800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 159000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 159201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 159400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 159600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 159800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 160001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 160200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 160400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 160600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 160801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 161000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 161200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 161400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 161601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 161800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 162000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 162200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 162401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 162600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 162800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 163000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 163201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 163400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 163600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 163800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 164001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 164200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 164400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 164600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 164801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 165000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 165200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 165400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 165601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 165800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 166000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 166200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 166401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 166600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 166800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 167000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 167201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 167400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 167600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 167800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 168001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 168200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 168400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 168600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 168801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 169000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 169200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 169400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 169601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 169800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 170000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 170200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 170401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 170600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 170800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 171000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 171201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 171400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 171600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 171800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 172001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 172200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 172400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 172600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 172801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 173000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 173200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 173400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 173601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 173800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 174000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 174200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 174401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 174600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 174800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 175000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 175201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 175400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 175600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 175800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 176001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 176200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 176400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 176600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 176801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 177000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 177200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 177400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 177601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 177800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 178000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 178200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 178401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 178600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 178800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 179000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 179201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 179400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 179600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 179800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 180001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 180200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 180400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 180600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 180801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 181000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 181200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 181400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 181601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 181800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 182000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 182200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 182401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 182600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 182800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 183000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 183201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 183400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 183600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 183800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 184001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 184200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 184400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 184600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 184801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 185000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 185200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 185400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 185601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 185800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 186000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 186200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 186401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 186600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 186800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 187000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 187201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 187400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 187600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 187800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 188001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 188200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 188400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 188600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 188801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 189000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 189200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 189400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 189601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 189800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 190000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 190200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 190401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 190600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 190800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 191000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 191201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 191400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 191600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 191800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 192001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 192200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 192400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 192600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 192801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 193000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 193200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 193400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 193601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 193800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 194000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 194200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 194401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 194600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 194800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 195000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 195201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 195400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 195600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 195800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 196001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 196200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 196400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 196600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 196801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 197000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 197200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 197400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 197601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 197800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 198000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 198200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 198401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 198600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 198800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 199000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 199201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 199400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 199600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 199800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 200801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 201000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 201200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 201400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 201601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 201800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 202000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 202200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 202401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 202600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 202800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 203000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 203201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 203400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 203600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 203800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 204001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 204200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 204400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 204600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 204801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 205000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 205200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 205400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 205601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 205800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 206000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 206200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 206401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 206600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 206800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 207000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 207201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 207400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 207600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 207800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 208001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 208200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 208400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 208600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 208801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 209000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 209200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 209400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 209601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 209800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 210000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 210200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 210401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 210600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 210800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 211000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 211201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 211400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 211600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 211800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 212001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 212200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 212400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 212600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 212801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 213000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 213200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 213400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 213601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 213800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 214000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 214200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 214401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 214600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 214800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 215000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 215201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 215400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 215600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 215800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 216001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 216200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 216400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 216600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 216801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 217000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 217200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 217400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 217601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 217800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 218000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 218200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 218401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 218600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 218800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 219000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 219201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 219400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 219600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 219800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 220001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 220200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 220400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 220600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 220801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 221000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 221200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 221400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 221601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 221800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 222000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 222200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 222401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 222600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 222800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 223000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 223201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 223400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 223600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 223800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 224001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 224200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 224400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 224600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 224801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 225000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 225200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 225400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 225601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 225800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 226000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 226200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 226401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 226600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 226800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 227000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 227201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 227400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 227600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 227800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 228001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 228200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 228400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 228600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 228801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 229000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 229200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 229400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 229601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 229800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 230000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 230200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 230401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 230600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 230800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 231000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 231201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 231400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 231600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 231800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 232001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 232200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 232400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 232600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 232801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 233000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 233200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 233400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 233601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 233800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 234000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 234200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 234401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 234600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 234800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 235000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 235201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 235400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 235600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 235800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 236001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 236200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 236400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 236600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 236801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 237000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 237200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 237400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 237601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 237800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 238000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 238200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 238401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 238600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 238800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 239000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 239201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 239400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 239600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 239800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 240001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 240200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 240400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 240600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 240801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 241000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 241200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 241400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 241601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 241800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 242000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 242200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 242401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 242600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 242800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 243000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 243201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 243400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 243600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 243800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 244001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 244200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 244400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 244600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 244801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 245000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 245200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 245400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 245601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 245800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 246000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 246200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 246401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 246600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 246800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 247000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 247201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 247400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 247600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 247800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 248001,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 248200,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 248400,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 248600,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 248801,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 249000,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 249200,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 249400,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 249601,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 249800,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 250000,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 250200,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 250401,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 250600,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 250800,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 251000,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 251201,
+    "phase": "novel_train",
+    "from_regime": "mixed",
+    "to_regime": "urban",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 251400,
+    "phase": "novel_train",
+    "from_regime": "urban",
+    "to_regime": "maritime",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 251600,
+    "phase": "novel_train",
+    "from_regime": "maritime",
+    "to_regime": "disaster",
+    "switching": 0.07427583634853363
+  },
+  {
+    "step": 251800,
+    "phase": "novel_train",
+    "from_regime": "disaster",
+    "to_regime": "mixed",
+    "switching": 0.07427583634853363
+  }
+]

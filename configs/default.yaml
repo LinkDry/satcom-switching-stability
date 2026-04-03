@@ -1,0 +1,51 @@
+# Default configuration for satcom-llm-drl experiments
+
+satellite:
+  altitude_m: 600000
+  num_rings: 2          # 19 beams
+  beam_spacing_deg: 1.5
+  max_tx_power_w: 20.0
+  antenna_gain_db: 40.0
+  total_bandwidth_hz: 500000000  # 500 MHz
+  num_subbands: 4
+
+channel:
+  frequency_ghz: 20.0   # Ka-band downlink
+  noise_temp_k: 290.0
+  rain_rate_mmh: 0.0     # clear sky default
+
+traffic:
+  regime_sequence: ["urban", "maritime", "disaster", "mixed"]
+  epochs_per_regime: 200
+
+environment:
+  max_active_beams: 10
+  min_rate_threshold_mbps: 10.0
+  switching_cost_weight: 0.01
+  outage_penalty_weight: 1.0
+
+training:
+  algorithm: ppo
+  total_timesteps: 500000
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  net_arch: [256, 256, 128]
+  num_seeds: 3
+
+llm:
+  model: glm-5
+  model_fallback: glm-5
+  base_url: https://coding.dashscope.aliyuncs.com/v1
+  temperature: 0.2
+  max_retries: 3
+  regime_detection_window: 10     # epochs
+  regime_detection_threshold: 0.5  # std deviations
+
+evaluation:
+  metrics: ["sum_rate", "outage_probability", "jains_fairness", "recovery_time"]

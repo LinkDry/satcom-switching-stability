@@ -1,0 +1,93 @@
+[
+  {
+    "step": 6250,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 12500,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 18750,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 25000,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 31250,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 37500,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 43750,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  }
+]

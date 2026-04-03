@@ -1,0 +1,80 @@
+[
+  {
+    "step": 62500,
+    "spec_id": "llm-stable-20231006",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.3,
+      "queue": -0.2
+    },
+    "trigger_rate": 0.6612629744382477
+  },
+  {
+    "step": 125000,
+    "spec_id": "llm-stable-20231005",
+    "new_weights": {
+      "sum_rate": 0.6,
+      "fairness": 0.3,
+      "queue": -0.1
+    },
+    "trigger_rate": 4.447024246784886
+  },
+  {
+    "step": 187500,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -1.0,
+      "queue": -0.5,
+      "switching": -0.1
+    },
+    "trigger_rate": 3.6796744124024308
+  },
+  {
+    "step": 250000,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "queue": -0.1,
+      "switching": -0.1
+    },
+    "trigger_rate": 0.32909575811187397
+  },
+  {
+    "step": 312500,
+    "spec_id": "llm-stable-20231005",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -1.0,
+      "queue": -0.5,
+      "switching": -0.1
+    },
+    "trigger_rate": 34.282317772319665
+  },
+  {
+    "step": 375000,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "queue": -0.1
+    },
+    "trigger_rate": 14.649464442636178
+  },
+  {
+    "step": 437500,
+    "spec_id": "llm-stable-20231005",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "queue": -0.1
+    },
+    "trigger_rate": 51.64172394839812
+  }
+]

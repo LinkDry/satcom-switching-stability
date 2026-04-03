@@ -1,0 +1,74 @@
+[
+  {
+    "step": 62500,
+    "phase": "known",
+    "regime": "mixed",
+    "weights": {
+      "sum_rate": 0.9888,
+      "fairness": 0.0355,
+      "outage": 1.0851,
+      "switching": 0.024,
+      "queue": 0.0369
+    }
+  },
+  {
+    "step": 125000,
+    "phase": "known",
+    "regime": "mixed",
+    "weights": {
+      "sum_rate": 0.9934,
+      "fairness": 0.0391,
+      "outage": 1.0083,
+      "switching": 0.0241,
+      "queue": 0.0314
+    }
+  },
+  {
+    "step": 250000,
+    "phase": "novel_init",
+    "regime_dist": {
+      "iot_burst": 49,
+      "polar_handover": 50,
+      "hot_cold": 51
+    },
+    "weights": {
+      "sum_rate": 0.8552,
+      "fairness": 0.5252,
+      "outage": 1.1735,
+      "switching": 0.3667,
+      "queue": 0.4424
+    }
+  },
+  {
+    "step": 375000,
+    "phase": "novel",
+    "regime_dist": {
+      "iot_burst": 49,
+      "polar_handover": 50,
+      "hot_cold": 51
+    },
+    "weights": {
+      "sum_rate": 0.8572,
+      "fairness": 0.5252,
+      "outage": 1.1029,
+      "switching": 0.362,
+      "queue": 0.4315
+    }
+  },
+  {
+    "step": 437500,
+    "phase": "novel",
+    "regime_dist": {
+      "iot_burst": 49,
+      "polar_handover": 50,
+      "hot_cold": 51
+    },
+    "weights": {
+      "sum_rate": 0.8528,
+      "fairness": 0.5252,
+      "outage": 1.2279,
+      "switching": 0.3687,
+      "queue": 0.4344
+    }
+  }
+]

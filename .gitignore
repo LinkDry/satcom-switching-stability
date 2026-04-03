@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+*.log
+*.aux
+*.blg
+*.out
+*.synctex.gz
+models/qwen3-4b-satcom-lora/
+results/*/model.zip
+.DS_Store
+Thumbs.db

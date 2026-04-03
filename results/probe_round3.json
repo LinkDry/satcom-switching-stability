@@ -1,0 +1,266 @@
+{
+  "iot_burst": {
+    "regime": "iot_burst",
+    "base_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.6,
+      "outage": 1.5,
+      "switching": 0.1,
+      "queue": 0.8
+    },
+    "base_performance": {
+      "rate_mbps": 0.2166126881591413,
+      "outage": 9.183333333333334,
+      "fairness": 0.0003509583928477644
+    },
+    "probes": [
+      {
+        "weight": "sum_rate",
+        "direction": "+20%",
+        "old_value": 0.5,
+        "new_value": 0.6,
+        "performance": {
+          "rate_mbps": 52.54773198178346,
+          "outage": 3.1933333333333334,
+          "fairness": 0.08312099809676918
+        },
+        "delta_rate": 52.33,
+        "delta_outage": -5.99,
+        "delta_fairness": 0.0828
+      },
+      {
+        "weight": "fairness",
+        "direction": "+20%",
+        "old_value": 0.6,
+        "new_value": 0.72,
+        "performance": {
+          "rate_mbps": 1.3939496331110577,
+          "outage": 6.8,
+          "fairness": 0.0022806271953860497
+        },
+        "delta_rate": 1.18,
+        "delta_outage": -2.383,
+        "delta_fairness": 0.0019
+      },
+      {
+        "weight": "outage",
+        "direction": "+20%",
+        "old_value": 1.5,
+        "new_value": 1.8,
+        "performance": {
+          "rate_mbps": 2.41887466189406,
+          "outage": 6.306666666666667,
+          "fairness": 0.0036842950665639924
+        },
+        "delta_rate": 2.2,
+        "delta_outage": -2.877,
+        "delta_fairness": 0.0033
+      },
+      {
+        "weight": "switching",
+        "direction": "+20%",
+        "old_value": 0.1,
+        "new_value": 0.12,
+        "performance": {
+          "rate_mbps": 130.2492633654359,
+          "outage": 0.08,
+          "fairness": 0.20059863093824123
+        },
+        "delta_rate": 130.03,
+        "delta_outage": -9.103,
+        "delta_fairness": 0.2002
+      },
+      {
+        "weight": "queue",
+        "direction": "+20%",
+        "old_value": 0.8,
+        "new_value": 0.96,
+        "performance": {
+          "rate_mbps": 31.24356715525135,
+          "outage": 6.053333333333334,
+          "fairness": 0.05263157895578326
+        },
+        "delta_rate": 31.03,
+        "delta_outage": -3.13,
+        "delta_fairness": 0.0523
+      }
+    ],
+    "probe_time_s": 1145.6
+  },
+  "polar_handover": {
+    "regime": "polar_handover",
+    "base_weights": {
+      "sum_rate": 0.8,
+      "fairness": 0.3,
+      "outage": 1.0,
+      "switching": 0.8,
+      "queue": 0.2
+    },
+    "base_performance": {
+      "rate_mbps": 97.38889450185025,
+      "outage": 0.09666666666666666,
+      "fairness": 0.15186624564988985
+    },
+    "probes": [
+      {
+        "weight": "sum_rate",
+        "direction": "+20%",
+        "old_value": 0.8,
+        "new_value": 0.96,
+        "performance": {
+          "rate_mbps": 28.181259255449913,
+          "outage": 6.786666666666667,
+          "fairness": 0.0426536731236813
+        },
+        "delta_rate": -69.21,
+        "delta_outage": 6.69,
+        "delta_fairness": -0.1092
+      },
+      {
+        "weight": "fairness",
+        "direction": "+20%",
+        "old_value": 0.3,
+        "new_value": 0.36,
+        "performance": {
+          "rate_mbps": 27.326335315796836,
+          "outage": 6.016666666666667,
+          "fairness": 0.04578947830093769
+        },
+        "delta_rate": -70.06,
+        "delta_outage": 5.92,
+        "delta_fairness": -0.1061
+      },
+      {
+        "weight": "outage",
+        "direction": "+20%",
+        "old_value": 1.0,
+        "new_value": 1.2,
+        "performance": {
+          "rate_mbps": 37.99996854588286,
+          "outage": 8.826666666666666,
+          "fairness": 0.0612723321972215
+        },
+        "delta_rate": -59.39,
+        "delta_outage": 8.73,
+        "delta_fairness": -0.0906
+      },
+      {
+        "weight": "switching",
+        "direction": "+20%",
+        "old_value": 0.8,
+        "new_value": 0.96,
+        "performance": {
+          "rate_mbps": 39.96128960164788,
+          "outage": 6.176666666666667,
+          "fairness": 0.07048818015678113
+        },
+        "delta_rate": -57.43,
+        "delta_outage": 6.08,
+        "delta_fairness": -0.0814
+      },
+      {
+        "weight": "queue",
+        "direction": "+20%",
+        "old_value": 0.2,
+        "new_value": 0.24,
+        "performance": {
+          "rate_mbps": 43.03071909601446,
+          "outage": 5.78,
+          "fairness": 0.06881344005507796
+        },
+        "delta_rate": -54.36,
+        "delta_outage": 5.683,
+        "delta_fairness": -0.0831
+      }
+    ],
+    "probe_time_s": 1123.7
+  },
+  "hot_cold": {
+    "regime": "hot_cold",
+    "base_weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.5,
+      "outage": 1.2,
+      "switching": 0.05,
+      "queue": 0.3
+    },
+    "base_performance": {
+      "rate_mbps": 2.3646884443258904,
+      "outage": 4.993333333333333,
+      "fairness": 0.0036842676469378
+    },
+    "probes": [
+      {
+        "weight": "sum_rate",
+        "direction": "+20%",
+        "old_value": 1.0,
+        "new_value": 1.2,
+        "performance": {
+          "rate_mbps": 26.374825039140877,
+          "outage": 9.193333333333333,
+          "fairness": 0.04210529708381164
+        },
+        "delta_rate": 24.01,
+        "delta_outage": 4.2,
+        "delta_fairness": 0.0384
+      },
+      {
+        "weight": "fairness",
+        "direction": "+20%",
+        "old_value": 0.5,
+        "new_value": 0.6,
+        "performance": {
+          "rate_mbps": 0.356091698251362,
+          "outage": 7.6466666666666665,
+          "fairness": 0.0005264724208309229
+        },
+        "delta_rate": -2.01,
+        "delta_outage": 2.653,
+        "delta_fairness": -0.0032
+      },
+      {
+        "weight": "outage",
+        "direction": "+20%",
+        "old_value": 1.2,
+        "new_value": 1.44,
+        "performance": {
+          "rate_mbps": 36.6403315217595,
+          "outage": 6.696666666666666,
+          "fairness": 0.06012233451665741
+        },
+        "delta_rate": 34.28,
+        "delta_outage": 1.703,
+        "delta_fairness": 0.0564
+      },
+      {
+        "weight": "switching",
+        "direction": "+20%",
+        "old_value": 0.05,
+        "new_value": 0.06,
+        "performance": {
+          "rate_mbps": 60.70673549028659,
+          "outage": 2.006666666666667,
+          "fairness": 0.10205013584275079
+        },
+        "delta_rate": 58.34,
+        "delta_outage": -2.987,
+        "delta_fairness": 0.0984
+      },
+      {
+        "weight": "queue",
+        "direction": "+20%",
+        "old_value": 0.3,
+        "new_value": 0.36,
+        "performance": {
+          "rate_mbps": 2.9752782012579125e-09,
+          "outage": 10.0,
+          "fairness": 8.915337917879206e-08
+        },
+        "delta_rate": -2.36,
+        "delta_outage": 5.007,
+        "delta_fairness": -0.0037
+      }
+    ],
+    "probe_time_s": 1144.9
+  }
+}

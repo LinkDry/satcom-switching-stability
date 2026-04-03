@@ -1,0 +1,79 @@
+[
+  {
+    "step": 62500,
+    "regime": "disaster",
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.1,
+      "outage": -2.0,
+      "switching": -0.01,
+      "queue": -0.3
+    }
+  },
+  {
+    "step": 125000,
+    "regime": "urban",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.1,
+      "outage": -0.5,
+      "switching": -0.01,
+      "queue": -0.05
+    }
+  },
+  {
+    "step": 187500,
+    "regime": "disaster",
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.1,
+      "outage": -2.0,
+      "switching": -0.01,
+      "queue": -0.3
+    }
+  },
+  {
+    "step": 250000,
+    "regime": "disaster",
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.1,
+      "outage": -2.0,
+      "switching": -0.01,
+      "queue": -0.3
+    }
+  },
+  {
+    "step": 312500,
+    "regime": "disaster",
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.1,
+      "outage": -2.0,
+      "switching": -0.01,
+      "queue": -0.3
+    }
+  },
+  {
+    "step": 375000,
+    "regime": "disaster",
+    "weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.1,
+      "outage": -2.0,
+      "switching": -0.01,
+      "queue": -0.3
+    }
+  },
+  {
+    "step": 437500,
+    "regime": "urban",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.1,
+      "outage": -0.5,
+      "switching": -0.01,
+      "queue": -0.05
+    }
+  }
+]

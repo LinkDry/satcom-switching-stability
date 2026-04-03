@@ -1,0 +1,1499 @@
+{
+  "metadata": {
+    "baseline_metrics": {
+      "urban": {
+        "rate_mbps": 79.47265537345923,
+        "outage": 0.0,
+        "fairness": 0.080542416690597
+      },
+      "maritime": {
+        "rate_mbps": 79.47265537345923,
+        "outage": 0.0,
+        "fairness": 0.080542416690597
+      },
+      "disaster": {
+        "rate_mbps": 79.47265537345923,
+        "outage": 0.0,
+        "fairness": 0.080542416690597
+      },
+      "mixed": {
+        "rate_mbps": 79.47265537345923,
+        "outage": 0.0,
+        "fairness": 0.080542416690597
+      },
+      "iot_burst": {
+        "rate_mbps": 342.05267102481395,
+        "outage": 0.0,
+        "fairness": 0.29285821547071333
+      },
+      "polar_handover": {
+        "rate_mbps": 342.05267102481395,
+        "outage": 0.0,
+        "fairness": 0.29285821547071333
+      },
+      "hot_cold": {
+        "rate_mbps": 342.05267102481395,
+        "outage": 0.0,
+        "fairness": 0.29285821547071333
+      }
+    }
+  },
+  "records": [
+    {
+      "round_id": 0,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 32.001361181699814,
+        "outage": 0.018333333333333333,
+        "fairness": 0.05559104302011145
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 32.001361181699814,
+        "outage": 0.018333333333333333,
+        "fairness": 0.05559104302011145
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 32.001361181699814,
+        "outage": 0.018333333333333333,
+        "fairness": 0.05559104302011145
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 32.001361181699814,
+        "outage": 0.018333333333333333,
+        "fairness": 0.05559104302011145
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.5,
+        "fairness": 0.6,
+        "outage": 1.5,
+        "switching": 0.1,
+        "queue": 0.8
+      },
+      "performance": {
+        "rate_mbps": 158.31484846322212,
+        "outage": 0.0,
+        "fairness": 0.13755381946008427
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.8,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.8,
+        "queue": 0.2
+      },
+      "performance": {
+        "rate_mbps": 158.31484846322212,
+        "outage": 0.0,
+        "fairness": 0.13755381946008427
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 0,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.5,
+        "outage": 1.2,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 158.31484846322212,
+        "outage": 0.0,
+        "fairness": 0.13755381946008427
+      },
+      "source": "oracle_mlp_aggregated",
+      "timestamp": "2026-04-01 09:46",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 37.27245515636852,
+        "outage": 1.2433333333333334,
+        "fairness": 0.05801933335741991
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 37.27245515636852,
+        "outage": 1.2433333333333334,
+        "fairness": 0.05801933335741991
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 37.27245515636852,
+        "outage": 1.2433333333333334,
+        "fairness": 0.05801933335741991
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 37.27245515636852,
+        "outage": 1.2433333333333334,
+        "fairness": 0.05801933335741991
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.6,
+        "fairness": 0.6,
+        "outage": 1.5,
+        "switching": 0.1,
+        "queue": 0.8
+      },
+      "performance": {
+        "rate_mbps": 0.10521606147209513,
+        "outage": 0.3622222222222222,
+        "fairness": 0.0526315789406384
+      },
+      "source": "llm_causal_round_1",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.8,
+        "fairness": 0.3,
+        "outage": 1.2,
+        "switching": 0.96,
+        "queue": 0.24
+      },
+      "performance": {
+        "rate_mbps": 0.10521606147209513,
+        "outage": 0.3622222222222222,
+        "fairness": 0.0526315789406384
+      },
+      "source": "llm_causal_round_1",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 1,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.05,
+        "fairness": 0.6,
+        "outage": 1.2,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 0.10521606147209513,
+        "outage": 0.3622222222222222,
+        "fairness": 0.0526315789406384
+      },
+      "source": "llm_causal_round_1",
+      "timestamp": "2026-04-01 11:06",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 89.67475832480052,
+        "outage": 6.161666666666667,
+        "fairness": 0.09519769801191498
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 89.67475832480052,
+        "outage": 6.161666666666667,
+        "fairness": 0.09519769801191498
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 89.67475832480052,
+        "outage": 6.161666666666667,
+        "fairness": 0.09519769801191498
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 89.67475832480052,
+        "outage": 6.161666666666667,
+        "fairness": 0.09519769801191498
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.6,
+        "fairness": 0.72,
+        "outage": 1.8,
+        "switching": 0.12,
+        "queue": 0.96
+      },
+      "performance": {
+        "rate_mbps": 235.09197961689392,
+        "outage": 1.0022222222222221,
+        "fairness": 0.20331144535894746
+      },
+      "source": "llm_causal_round_2",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.96,
+        "fairness": 0.36,
+        "outage": 1.2,
+        "switching": 0.96,
+        "queue": 0.24
+      },
+      "performance": {
+        "rate_mbps": 235.09197961689392,
+        "outage": 1.0022222222222221,
+        "fairness": 0.20331144535894746
+      },
+      "source": "llm_causal_round_2",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 2,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.5,
+        "outage": 1.2,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 235.09197961689392,
+        "outage": 1.0022222222222221,
+        "fairness": 0.20331144535894746
+      },
+      "source": "llm_causal_round_2",
+      "timestamp": "2026-04-01 12:33",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 3.9546319103073513,
+        "outage": 0.07,
+        "fairness": 0.05665756328641439
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 3.9546319103073513,
+        "outage": 0.07,
+        "fairness": 0.05665756328641439
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 3.9546319103073513,
+        "outage": 0.07,
+        "fairness": 0.05665756328641439
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 3.9546319103073513,
+        "outage": 0.07,
+        "fairness": 0.05665756328641439
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.65,
+        "fairness": 0.78,
+        "outage": 1.95,
+        "switching": 0.13,
+        "queue": 1.04
+      },
+      "performance": {
+        "rate_mbps": 106.53533778252626,
+        "outage": 0.0,
+        "fairness": 0.09320808098525679
+      },
+      "source": "llm_causal_round_3",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.96,
+        "fairness": 0.36,
+        "outage": 1.2,
+        "switching": 0.96,
+        "queue": 0.24
+      },
+      "performance": {
+        "rate_mbps": 106.53533778252626,
+        "outage": 0.0,
+        "fairness": 0.09320808098525679
+      },
+      "source": "llm_causal_round_3",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 3,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.5,
+        "outage": 1.2,
+        "switching": 0.06,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 106.53533778252626,
+        "outage": 0.0,
+        "fairness": 0.09320808098525679
+      },
+      "source": "llm_causal_round_3",
+      "timestamp": "2026-04-01 14:00",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 17.66962406252036,
+        "outage": 1.1633333333333333,
+        "fairness": 0.08140848913316125
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 17.66962406252036,
+        "outage": 1.1633333333333333,
+        "fairness": 0.08140848913316125
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 17.66962406252036,
+        "outage": 1.1633333333333333,
+        "fairness": 0.08140848913316125
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 17.66962406252036,
+        "outage": 1.1633333333333333,
+        "fairness": 0.08140848913316125
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.575,
+        "fairness": 0.51,
+        "outage": 1.725,
+        "switching": 0.085,
+        "queue": 0.92
+      },
+      "performance": {
+        "rate_mbps": 12.780485957683087,
+        "outage": 0.6555555555555556,
+        "fairness": 0.06562398117534265
+      },
+      "source": "synthetic_causal_round_4",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.64,
+        "fairness": 0.3,
+        "outage": 0.8,
+        "switching": 0.64,
+        "queue": 0.2
+      },
+      "performance": {
+        "rate_mbps": 12.780485957683087,
+        "outage": 0.6555555555555556,
+        "fairness": 0.06562398117534265
+      },
+      "source": "llm_causal_round_4",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 4,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.5,
+        "outage": 1.2,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 12.780485957683087,
+        "outage": 0.6555555555555556,
+        "fairness": 0.06562398117534265
+      },
+      "source": "llm_causal_round_4",
+      "timestamp": "2026-04-02 21:53",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 23.008891985709354,
+        "outage": 0.165,
+        "fairness": 0.0687626305052058
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 23.008891985709354,
+        "outage": 0.165,
+        "fairness": 0.0687626305052058
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 23.008891985709354,
+        "outage": 0.165,
+        "fairness": 0.0687626305052058
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 23.008891985709354,
+        "outage": 0.165,
+        "fairness": 0.0687626305052058
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.575,
+        "fairness": 0.51,
+        "outage": 1.275,
+        "switching": 0.085,
+        "queue": 0.8
+      },
+      "performance": {
+        "rate_mbps": 58.85451234007249,
+        "outage": 0.0,
+        "fairness": 0.05263157894736832
+      },
+      "source": "synthetic_causal_round_5",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.68,
+        "fairness": 0.345,
+        "outage": 1.15,
+        "switching": 0.68,
+        "queue": 0.2
+      },
+      "performance": {
+        "rate_mbps": 58.85451234007249,
+        "outage": 0.0,
+        "fairness": 0.05263157894736832
+      },
+      "source": "synthetic_causal_round_5",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 5,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.5,
+        "outage": 1.44,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 58.85451234007249,
+        "outage": 0.0,
+        "fairness": 0.05263157894736832
+      },
+      "source": "llm_causal_round_5",
+      "timestamp": "2026-04-03 00:25",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 29.11042012851519,
+        "outage": 1.1633333333333333,
+        "fairness": 0.0699662465104071
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 29.11042012851519,
+        "outage": 1.1633333333333333,
+        "fairness": 0.0699662465104071
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 29.11042012851519,
+        "outage": 1.1633333333333333,
+        "fairness": 0.0699662465104071
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 29.11042012851519,
+        "outage": 1.1633333333333333,
+        "fairness": 0.0699662465104071
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.575,
+        "fairness": 0.51,
+        "outage": 1.275,
+        "switching": 0.085,
+        "queue": 0.8
+      },
+      "performance": {
+        "rate_mbps": 0.371521793292822,
+        "outage": 0.0,
+        "fairness": 0.05263157894736833
+      },
+      "source": "llm_causal_round_6",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.72,
+        "fairness": 0.3,
+        "outage": 1.2,
+        "switching": 0.8,
+        "queue": 0.2
+      },
+      "performance": {
+        "rate_mbps": 0.371521793292822,
+        "outage": 0.0,
+        "fairness": 0.05263157894736833
+      },
+      "source": "llm_causal_round_6",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 6,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 0.8,
+        "fairness": 0.4,
+        "outage": 0.96,
+        "switching": 0.05,
+        "queue": 0.3
+      },
+      "performance": {
+        "rate_mbps": 0.371521793292822,
+        "outage": 0.0,
+        "fairness": 0.05263157894736833
+      },
+      "source": "llm_causal_round_6",
+      "timestamp": "2026-04-03 02:36",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "urban",
+      "kpi_snapshot": {
+        "avg_demand": 55,
+        "demand_variance": 2000,
+        "spatial_gini": 0.45,
+        "peak_beam_demand": 110,
+        "active_beam_fraction": 0.85
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 77.43602879910597,
+        "outage": 8.69,
+        "fairness": 0.06817497693028102
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "maritime",
+      "kpi_snapshot": {
+        "avg_demand": 12,
+        "demand_variance": 200,
+        "spatial_gini": 0.15,
+        "peak_beam_demand": 25,
+        "active_beam_fraction": 0.4
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.3,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 77.43602879910597,
+        "outage": 8.69,
+        "fairness": 0.06817497693028102
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "disaster",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 4000,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 180,
+        "active_beam_fraction": 0.7
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 2.0,
+        "switching": 0.01,
+        "queue": 0.1
+      },
+      "performance": {
+        "rate_mbps": 77.43602879910597,
+        "outage": 8.69,
+        "fairness": 0.06817497693028102
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "mixed",
+      "kpi_snapshot": {
+        "avg_demand": 30,
+        "demand_variance": 1500,
+        "spatial_gini": 0.3,
+        "peak_beam_demand": 70,
+        "active_beam_fraction": 0.6
+      },
+      "weights_used": {
+        "sum_rate": 1.0,
+        "fairness": 0.0,
+        "outage": 1.0,
+        "switching": 0.01,
+        "queue": 0.0
+      },
+      "performance": {
+        "rate_mbps": 77.43602879910597,
+        "outage": 8.69,
+        "fairness": 0.06817497693028102
+      },
+      "source": "expert_weights_fixed",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "iot_burst",
+      "kpi_snapshot": {
+        "avg_demand": 15,
+        "demand_variance": 3000,
+        "spatial_gini": 0.55,
+        "peak_beam_demand": 120,
+        "active_beam_fraction": 0.35
+      },
+      "weights_used": {
+        "sum_rate": 0.6,
+        "fairness": 0.48,
+        "outage": 1.5,
+        "switching": 0.1,
+        "queue": 0.8
+      },
+      "performance": {
+        "rate_mbps": 130.1449004060403,
+        "outage": 1.98,
+        "fairness": 0.11207933717848187
+      },
+      "source": "llm_causal_round_7",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "polar_handover",
+      "kpi_snapshot": {
+        "avg_demand": 40,
+        "demand_variance": 1200,
+        "spatial_gini": 0.35,
+        "peak_beam_demand": 80,
+        "active_beam_fraction": 0.75
+      },
+      "weights_used": {
+        "sum_rate": 0.8,
+        "fairness": 0.3,
+        "outage": 1.2,
+        "switching": 0.96,
+        "queue": 0.24
+      },
+      "performance": {
+        "rate_mbps": 130.1449004060403,
+        "outage": 1.98,
+        "fairness": 0.11207933717848187
+      },
+      "source": "llm_causal_round_7",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    },
+    {
+      "round_id": 7,
+      "regime": "hot_cold",
+      "kpi_snapshot": {
+        "avg_demand": 35,
+        "demand_variance": 3500,
+        "spatial_gini": 0.6,
+        "peak_beam_demand": 130,
+        "active_beam_fraction": 0.5
+      },
+      "weights_used": {
+        "sum_rate": 1.2,
+        "fairness": 0.6,
+        "outage": 1.2,
+        "switching": 0.06,
+        "queue": 0.36
+      },
+      "performance": {
+        "rate_mbps": 130.1449004060403,
+        "outage": 1.98,
+        "fairness": 0.11207933717848187
+      },
+      "source": "llm_causal_round_7",
+      "timestamp": "2026-04-03 04:38",
+      "reasoning": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mean_reward": 1597.877463098325,
+  "mean_sum_rate_mbps": 399.5026991079148,
+  "mean_outage_count": 0.0,
+  "std_sum_rate_mbps": 41.02722250334544,
+  "train_time_s": 924.2714586257935,
+  "seed": 42,
+  "mdp_switches": 0,
+  "llm_stats": {
+    "call_count": 0,
+    "total_latency_s": 0.0,
+    "avg_latency_s": 0.0
+  },
+  "method": "two_timescale_full"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "step": 6250,
+    "spec_id": "llm-disaster_spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.1,
+      "queue": -0.4
+    },
+    "trigger_rate": 17.922408857313176
+  },
+  {
+    "step": 12500,
+    "spec_id": "llm-disaster_spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "trigger_rate": 22.994411661069336
+  },
+  {
+    "step": 18750,
+    "spec_id": "llm-disaster_spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "trigger_rate": 53.55933429732836
+  },
+  {
+    "step": 25000,
+    "spec_id": "llm-disaster_spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "trigger_rate": 33.30978370560066
+  },
+  {
+    "step": 31250,
+    "spec_id": "llm-disaster-spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "trigger_rate": 43.39609351745372
+  },
+  {
+    "step": 37500,
+    "spec_id": "llm-disaster_spike",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.1,
+      "queue": -0.4
+    },
+    "trigger_rate": 44.62909431730589
+  },
+  {
+    "step": 43750,
+    "spec_id": "llm-disaster",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.1,
+      "queue": -0.4
+    },
+    "trigger_rate": 47.342125892787564
+  }
+]

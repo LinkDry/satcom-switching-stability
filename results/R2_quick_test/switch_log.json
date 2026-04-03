@@ -1,0 +1,86 @@
+[
+  {
+    "step": 6250,
+    "spec_id": "llm-stable-1689472800",
+    "new_weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.3,
+      "outage": -1.0,
+      "switching": -0.1,
+      "queue": -0.5
+    },
+    "trigger_rate": 17.922408857313176
+  },
+  {
+    "step": 12500,
+    "spec_id": "llm-stable-20231005",
+    "new_weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "switching": -0.05,
+      "queue": -0.05
+    },
+    "trigger_rate": 21.8058938579457
+  },
+  {
+    "step": 18750,
+    "spec_id": "llm-stable-1696300000",
+    "new_weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "switching": -0.05,
+      "queue": -0.05
+    },
+    "trigger_rate": 48.881889548403215
+  },
+  {
+    "step": 25000,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "switching": -0.05,
+      "queue": -0.1
+    },
+    "trigger_rate": 45.409876815525294
+  },
+  {
+    "step": 31250,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -1.0,
+      "switching": -0.1,
+      "queue": -0.5
+    },
+    "trigger_rate": 39.995165603483805
+  },
+  {
+    "step": 37500,
+    "spec_id": "llm-declining-traffic-20231005",
+    "new_weights": {
+      "sum_rate": 0.4,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "switching": -0.05,
+      "queue": -0.05
+    },
+    "trigger_rate": 30.473165724776372
+  },
+  {
+    "step": 43750,
+    "spec_id": "llm-stable-1689472800",
+    "new_weights": {
+      "sum_rate": 0.5,
+      "fairness": 0.2,
+      "outage": -0.1,
+      "switching": -0.05,
+      "queue": -0.1
+    },
+    "trigger_rate": 67.16756961641157
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "step": 62500,
+    "phase": "known",
+    "weights": {
+      "sum_rate": 0.9888,
+      "fairness": 0.0355,
+      "outage": 1.0851,
+      "switching": 0.024,
+      "queue": 0.0369
+    }
+  },
+  {
+    "step": 125000,
+    "phase": "known",
+    "weights": {
+      "sum_rate": 0.9934,
+      "fairness": 0.0391,
+      "outage": 1.0083,
+      "switching": 0.0241,
+      "queue": 0.0314
+    }
+  },
+  {
+    "step": 250000,
+    "phase": "novel_init",
+    "weights": {
+      "sum_rate": 0.9023,
+      "fairness": 0.0955,
+      "outage": 1.4324,
+      "switching": 0.0445,
+      "queue": 0.1434
+    }
+  },
+  {
+    "step": 312500,
+    "phase": "novel",
+    "weights": {
+      "sum_rate": 0.8872,
+      "fairness": 0.1166,
+      "outage": 1.1735,
+      "switching": 0.0508,
+      "queue": 0.1186
+    }
+  },
+  {
+    "step": 375000,
+    "phase": "novel",
+    "weights": {
+      "sum_rate": 0.9036,
+      "fairness": 0.0981,
+      "outage": 1.2261,
+      "switching": 0.0457,
+      "queue": 0.1114
+    }
+  }
+]

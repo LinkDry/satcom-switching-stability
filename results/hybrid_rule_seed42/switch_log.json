@@ -1,0 +1,79 @@
+[
+  {
+    "step": 62500,
+    "weights": {
+      "sum_rate": 68.1364,
+      "fairness": 0.0,
+      "outage": 124.8905,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "max_throughput"
+  },
+  {
+    "step": 125000,
+    "weights": {
+      "sum_rate": 39.1157,
+      "fairness": 0.0,
+      "outage": 68.3493,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "emergency"
+  },
+  {
+    "step": 187500,
+    "weights": {
+      "sum_rate": 63.0873,
+      "fairness": 0.0,
+      "outage": 115.6798,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "emergency"
+  },
+  {
+    "step": 250000,
+    "weights": {
+      "sum_rate": 44.917,
+      "fairness": 0.0,
+      "outage": 80.0223,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "fairness"
+  },
+  {
+    "step": 312500,
+    "weights": {
+      "sum_rate": 57.4469,
+      "fairness": 0.0,
+      "outage": 107.3024,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "fairness"
+  },
+  {
+    "step": 375000,
+    "weights": {
+      "sum_rate": 48.6192,
+      "fairness": 0.0,
+      "outage": 87.1204,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "fairness"
+  },
+  {
+    "step": 437500,
+    "weights": {
+      "sum_rate": 44.9368,
+      "fairness": 0.0,
+      "outage": 81.276,
+      "switching": 0.0,
+      "queue": 0.0
+    },
+    "intent": "fairness"
+  }
+]

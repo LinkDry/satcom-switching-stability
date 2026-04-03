@@ -1,0 +1,16 @@
+{
+  "method": "path_c",
+  "smooth_steps": 0,
+  "min_switch_interval": 0,
+  "weight_source": "probe_optimal",
+  "seed": 42,
+  "known_rate": 50.622272654886984,
+  "known_outage": 3.2483333333333335,
+  "known_fairness": 0.08564706019177157,
+  "novel_rate": 82.6134991595096,
+  "novel_outage": 0.017777777777777778,
+  "novel_fairness": 0.10571758354277856,
+  "phase1_switches": 1260,
+  "phase2_switches": 1260,
+  "train_time_s": 1378.8
+}

@@ -1,0 +1,20 @@
+{
+  "satcom_mdp": {
+    "file_name": "../data/finetune_train.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "satcom_mdp_val": {
+    "file_name": "../data/finetune_val.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

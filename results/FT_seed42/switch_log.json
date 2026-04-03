@@ -1,0 +1,72 @@
+[
+  {
+    "step": 62500,
+    "weights": {
+      "sum_rate": 0.9962,
+      "fairness": 0.0112,
+      "outage": 1.9997,
+      "switching": 0.0049,
+      "queue": 0.1007
+    }
+  },
+  {
+    "step": 125000,
+    "weights": {
+      "sum_rate": 0.9977,
+      "fairness": 0.0037,
+      "outage": 0.9998,
+      "switching": 0.0035,
+      "queue": 0.0035
+    }
+  },
+  {
+    "step": 187500,
+    "weights": {
+      "sum_rate": 0.9994,
+      "fairness": 0.0152,
+      "outage": 1.0041,
+      "switching": 0.0081,
+      "queue": 0.0152
+    }
+  },
+  {
+    "step": 250000,
+    "weights": {
+      "sum_rate": 0.9985,
+      "fairness": 0.0091,
+      "outage": 1.0013,
+      "switching": 0.0019,
+      "queue": 0.0074
+    }
+  },
+  {
+    "step": 312500,
+    "weights": {
+      "sum_rate": 0.9857,
+      "fairness": 0.0056,
+      "outage": 1.0031,
+      "switching": 0.0056,
+      "queue": 0.0188
+    }
+  },
+  {
+    "step": 375000,
+    "weights": {
+      "sum_rate": 0.9899,
+      "fairness": 0.0031,
+      "outage": 1.0076,
+      "switching": 0.0131,
+      "queue": 0.0116
+    }
+  },
+  {
+    "step": 437500,
+    "weights": {
+      "sum_rate": 0.9988,
+      "fairness": 0.0079,
+      "outage": 0.9911,
+      "switching": 0.0187,
+      "queue": 0.0099
+    }
+  }
+]

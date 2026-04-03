@@ -1,0 +1,8 @@
+{
+  "mean_reward": 14970.18673146183,
+  "mean_sum_rate_mbps": 374.4025849532134,
+  "mean_outage_count": 0.0,
+  "std_sum_rate_mbps": 51.48199841175094,
+  "train_time_s": 954.2676510810852,
+  "seed": 123
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "step": 62500,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 125000,
+    "kpi_regime": "urban",
+    "llm_regime": "urban",
+    "regime_used": "urban",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 1.0,
+      "switching": 0.01,
+      "queue": 0.0
+    }
+  },
+  {
+    "step": 187500,
+    "kpi_regime": "disaster",
+    "llm_regime": "disaster",
+    "regime_used": "disaster",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 2.0,
+      "switching": 0.01,
+      "queue": 0.1
+    }
+  },
+  {
+    "step": 437500,
+    "kpi_regime": "urban",
+    "llm_regime": "urban",
+    "regime_used": "urban",
+    "weights": {
+      "sum_rate": 1.0,
+      "fairness": 0.0,
+      "outage": 1.0,
+      "switching": 0.01,
+      "queue": 0.0
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "method": "corrected_mlp_best_round_override",
+  "seed": 42,
+  "known_rate": 32.001361181699814,
+  "known_outage": 0.018333333333333333,
+  "known_fairness": 0.05559104302011145,
+  "novel_rate": 101.4490921635983,
+  "novel_outage": 0.0,
+  "novel_fairness": 0.09807976354111744,
+  "known_avg_fairness": 0.07721199645724468,
+  "novel_avg_fairness": 0.08626476964069031,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 1262,
+  "regime_switches_during_training": 1260,
+  "train_time_s": 1414.1440470218658,
+  "novel_rate_trajectory": [
+    84.3396680483503,
+    77.38288778001525,
+    92.50154085754664,
+    90.32802004794392
+  ],
+  "correction_source": "best_round",
+  "correction_mode": "override",
+  "regime_hits": {
+    "iot_burst": 1,
+    "polar_handover": 1,
+    "hot_cold": 1
+  }
+}

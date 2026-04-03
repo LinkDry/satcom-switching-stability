@@ -1,0 +1,26 @@
+[
+  {
+    "step": 6250,
+    "raw": {
+      "sum_rate": 0.5,
+      "outage": 2.5,
+      "queue": 0.4,
+      "switching": 0.05,
+      "fairness": 0.15
+    },
+    "clamped": {
+      "sum_rate": 0.5,
+      "outage": 2.5,
+      "queue": 0.4,
+      "switching": 0.05,
+      "fairness": 0.15
+    },
+    "smoothed": {
+      "sum_rate": 0.71,
+      "outage": 1.1,
+      "queue": 0.19,
+      "switching": 0.05,
+      "fairness": 0.15
+    }
+  }
+]

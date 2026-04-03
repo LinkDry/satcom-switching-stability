@@ -1,0 +1,21 @@
+{
+  "method": "rule",
+  "seed": 42,
+  "known_rate": 20.03201262453836,
+  "known_outage": 0.04666666666666667,
+  "known_fairness": 0.05187247139442625,
+  "novel_rate": 239.11876433653921,
+  "novel_outage": 0.0,
+  "novel_fairness": 0.20667928405935274,
+  "known_avg_fairness": 0.06010813460769304,
+  "novel_avg_fairness": 0.1224171924640874,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 2,
+  "train_time_s": 1677.479440689087,
+  "novel_rate_trajectory": [
+    79.92784116917362,
+    110.48910988060571,
+    226.25314413967746
+  ]
+}

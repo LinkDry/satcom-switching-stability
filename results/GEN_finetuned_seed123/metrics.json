@@ -1,0 +1,21 @@
+{
+  "method": "finetuned",
+  "seed": 123,
+  "known_rate": 25.598082065486864,
+  "known_outage": 0.0,
+  "known_fairness": 0.05311295693794207,
+  "novel_rate": 49.69685768001247,
+  "novel_outage": 1.3133333333333332,
+  "novel_fairness": 0.0638643992091066,
+  "known_avg_fairness": 0.052753746592138905,
+  "novel_avg_fairness": 0.09767992816155002,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 8,
+  "train_time_s": 1602.8238921165466,
+  "novel_rate_trajectory": [
+    70.6594197161365,
+    45.806062340372314,
+    75.07067917664824
+  ]
+}

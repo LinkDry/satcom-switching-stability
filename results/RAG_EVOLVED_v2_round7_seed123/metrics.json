@@ -1,0 +1,21 @@
+{
+  "method": "oracle_mlp",
+  "seed": 123,
+  "known_rate": 77.43602879910597,
+  "known_outage": 8.69,
+  "known_fairness": 0.06817497693028102,
+  "novel_rate": 130.1449004060403,
+  "novel_outage": 1.98,
+  "novel_fairness": 0.11207933717848187,
+  "known_avg_fairness": 0.0396081950083067,
+  "novel_avg_fairness": 0.11735618392499202,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 2,
+  "train_time_s": 1712.3770196437836,
+  "novel_rate_trajectory": [
+    91.33671046795428,
+    161.60980786014068,
+    145.63963339631377
+  ]
+}

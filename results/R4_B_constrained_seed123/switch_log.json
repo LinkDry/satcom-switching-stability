@@ -1,0 +1,98 @@
+[
+  {
+    "step": 62500,
+    "raw": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "clamped": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -1.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "smoothed": {
+      "sum_rate": 0.71,
+      "fairness": 0.15,
+      "outage": -0.8,
+      "switching": -0.05,
+      "queue": -0.19
+    }
+  },
+  {
+    "step": 187500,
+    "raw": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.1,
+      "queue": -0.4
+    },
+    "clamped": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -1.5,
+      "switching": -0.1,
+      "queue": -0.4
+    },
+    "smoothed": {
+      "sum_rate": 0.647,
+      "fairness": 0.15,
+      "outage": -1.01,
+      "switching": -0.065,
+      "queue": -0.253
+    }
+  },
+  {
+    "step": 312500,
+    "raw": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "clamped": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -1.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "smoothed": {
+      "sum_rate": 0.603,
+      "fairness": 0.15,
+      "outage": -1.157,
+      "switching": -0.06,
+      "queue": -0.297
+    }
+  },
+  {
+    "step": 437500,
+    "raw": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -2.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "clamped": {
+      "sum_rate": 0.5,
+      "fairness": 0.15,
+      "outage": -1.5,
+      "switching": -0.05,
+      "queue": -0.4
+    },
+    "smoothed": {
+      "sum_rate": 0.572,
+      "fairness": 0.15,
+      "outage": -1.26,
+      "switching": -0.057,
+      "queue": -0.328
+    }
+  }
+]

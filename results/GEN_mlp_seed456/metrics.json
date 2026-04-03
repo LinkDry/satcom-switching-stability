@@ -1,0 +1,21 @@
+{
+  "method": "mlp",
+  "seed": 456,
+  "known_rate": 37.48767539392976,
+  "known_outage": 0.01,
+  "known_fairness": 0.05281783543550573,
+  "novel_rate": 299.9863187603743,
+  "novel_outage": 0.0,
+  "novel_fairness": 0.25635479449287635,
+  "known_avg_fairness": 0.059675064364045925,
+  "novel_avg_fairness": 0.0976280819976345,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 6,
+  "train_time_s": 1292.1227123737335,
+  "novel_rate_trajectory": [
+    51.92431796978086,
+    88.42341051638395,
+    173.08569036891805
+  ]
+}

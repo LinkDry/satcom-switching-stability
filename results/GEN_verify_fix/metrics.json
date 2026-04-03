@@ -1,0 +1,17 @@
+{
+  "method": "finetuned",
+  "seed": 42,
+  "known_rate": 41.59349342416396,
+  "known_outage": 0.05333333333333334,
+  "known_fairness": 0.07312264967011473,
+  "novel_rate": 28.616451169312874,
+  "novel_outage": 0.42,
+  "novel_fairness": 0.06821781643834188,
+  "known_avg_fairness": 0.0,
+  "novel_avg_fairness": 0.0,
+  "known_recovery": [],
+  "novel_recovery": [],
+  "mdp_switches": 1,
+  "train_time_s": 800.4970943927765,
+  "novel_rate_trajectory": []
+}

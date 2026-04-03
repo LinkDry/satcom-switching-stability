@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MDP Specification",
+  "description": "Schema for LLM-generated MDP specifications for beam resource allocation",
+  "type": "object",
+  "required": ["state_features", "action_type", "reward_components"],
+  "properties": {
+    "spec_id": {
+      "type": "string",
+      "description": "Unique identifier for this MDP spec"
+    },
+    "state_features": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "queue_lengths",
+          "channel_snr",
+          "demand_current",
+          "demand_history_mean",
+          "demand_history_var",
+          "spatial_gini",
+          "peak_beam_demand",
+          "active_beam_fraction",
+          "prev_beam_activation",
+          "avg_queue_length",
+          "queue_growth_rate",
+          "channel_variance",
+          "interference_estimate"
+        ]
+      },
+      "minItems": 2,
+      "description": "Which features to include in the observation vector"
+    },
+    "action_type": {
+      "type": "string",
+      "enum": ["per_beam", "per_cluster", "global_topk"],
+      "description": "How the action space is parameterized"
+    },
+    "action_params": {
+      "type": "object",
+      "properties": {
+        "max_active_beams": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 19
+        },
+        "power_levels": {
+          "type": "string",
+          "enum": ["continuous", "discrete_3", "discrete_5"],
+          "description": "Power allocation granularity"
+        },
+        "cluster_size": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7,
+          "description": "Beams per cluster (for per_cluster action type)"
+        }
+      }
+    },
+    "reward_components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "weight"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "sum_rate",
+              "min_rate",
+              "proportional_fairness",
+              "outage_penalty",
+              "switching_cost",
+              "queue_penalty",
+              "power_efficiency"
+            ]
+          },
+          "weight": {
+            "type": "number"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "value"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "max_total_power",
+              "min_active_beams",
+              "max_active_beams",
+              "min_beam_rate",
+              "max_switching_per_epoch"
+            ]
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of why this MDP spec was generated"
+    }
+  }
+}
