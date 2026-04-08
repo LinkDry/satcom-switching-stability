@@ -35,7 +35,7 @@ This repository contains the code, data, and experiment results for the paper:
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/satcom-switching-stability.git
+git clone https://github.com/LinkDry/satcom-switching-stability.git
 cd satcom-switching-stability
 pip install -r requirements.txt
 ```
